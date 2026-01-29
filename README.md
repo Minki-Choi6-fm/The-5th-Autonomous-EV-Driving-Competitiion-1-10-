@@ -3,7 +3,8 @@
 **제5회 국제 대학생 EV 자율주행 경진대회 (The 5th International University Students Autonomous EV Driving Competition)**
 **Category:** 자율주행 모빌리티 레이스 1/10 (Autonomous Mobility Race 1/10)
 
-![Competition Poster](./docs/poster_image.jpg) ## 📝 Project Overview
+## 📝 Project Overview
+https://ievexpo.org/notice/11
 이 프로젝트는 2026년 3월 제주에서 열리는 '제5회 국제 대학생 EV 자율주행 경진대회'의 **1/10 스케일 자율주행 부문** 참가를 위해 개발된 자율주행 소프트웨어 스택입니다.
 주어진 트랙 환경에서 LiDAR와 카메라 센서 퓨전을 통해 장애물을 회피하고 최적의 주행 경로를 생성하여 완주하는 것을 목표로 합니다.
 
@@ -22,14 +23,14 @@
 | **Middleware** | ROS 2 (Humble/Iron) |
 | **Language** | Python 3.10+, C++ |
 | **Perception** | OpenCV, YOLOv8 (Optional), LiDAR Clustering |
-| **Control** | PID Control, Pure Pursuit |
+| **Control** | PID Control, Pure Pursuit, Stanley |
 
 ### Hardware (Example - Modify as needed)
 - **Platform:** 1/10 Scale RC Car Chassis
-- **Compute Unit:** (ex: NVIDIA Jetson Orin Nano / LattePanda / Raspberry Pi 5)
+- **Compute Unit:** (ex: LattePanda Iota)
 - **Sensors:**
-  - 2D LiDAR (ex: RPLIDAR A1/A2)
-  - Depth Camera (ex: Intel RealSense / OAK-D)
+  - 2D LiDAR (ex: RPLIDAR C1)
+  - Depth Camera (ex: oCam-5CRO-U-M)
   - IMU (9-axis)
 
 ## 🚀 Key Features
