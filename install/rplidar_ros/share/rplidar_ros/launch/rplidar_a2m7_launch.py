@@ -1,0 +1,1 @@
+/home/fmp/Jeju_Island/src/rplidar_ros/launch/rplidar_a2m7_launch.py

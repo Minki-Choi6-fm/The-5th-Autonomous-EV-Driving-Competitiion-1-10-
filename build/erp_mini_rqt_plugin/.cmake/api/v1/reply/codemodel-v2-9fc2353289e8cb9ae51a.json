@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a6a730fe250b81e14085.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "erp_mini_rqt_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_rqt_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_rqt_plugin-0c67fc5c3e37819f3192.json",
+					"name" : "erp_mini_rqt_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_rqt_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_rqt_plugin_uninstall-1af335b79779eb83da5a.json",
+					"name" : "erp_mini_rqt_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-33f36417f5efb9809000.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin",
+		"source" : "/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+
+    <!-- Package imformation -->
+    <name>erp_mini_serial</name>
+    <version>0.0.0</version>
+    <description>ERP Mini ROS2 serial driver package</description>
+
+    <!-- Maintainer and author -->
+    <maintainer email="mgkilprg@gmail.com">Minkyu Kil</maintainer>
+    <author email="mgkilprg@gmail.com">Minkyu Kil</author>
+
+    <!-- License information -->
+    <license>Apache-2.0</license>
+
+    <!-- Build tool : ament_cmake -->
+    <buildtool_depend>erp_mini_cmake</buildtool_depend>
+
+    <!-- Dependencies -->
+    <depend>rclcpp_components</depend>
+    <depend>rclcpp           </depend>
+    <depend>nav_msgs         </depend>
+    
+    <depend>erp_mini_msgs</depend>
+    <depend>erp_mini_util</depend>
+
+    <!-- Export build system information -->
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>

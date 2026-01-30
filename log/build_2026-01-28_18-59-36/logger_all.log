@@ -1,0 +1,216 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7476e5d4d1b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7476e5ed2770>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7476e5ed2770>>, mixin_verb=('build',))
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fmp/Jeju_Island'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.635s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/rplidar_ros', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/usb_cam', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/usb_cam', 'symlink_install': True, 'test_result_base': None}
+[0.636s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/rplidar_ros' with build type 'ament_cmake'
+[0.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/rplidar_ros'
+[0.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/usb_cam' with build type 'ament_cmake'
+[0.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/usb_cam'
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/rplidar_ros
+[0.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/usb_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/usb_cam
+[5.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/rplidar_ros
+[5.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/rplidar_ros -- -j4 -l4
+[7.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/usb_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/usb_cam
+[7.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[301.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/rplidar_ros -- -j4 -l4
+[301.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/rplidar_ros
+[305.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[305.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/rplidar_ros
+[305.824s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake module files
+[305.827s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake config files
+[305.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[305.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[305.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[305.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[305.842s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib'
+[305.843s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[305.844s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[305.845s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/python3.10/site-packages'
+[305.848s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[305.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[305.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[305.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.sh'
+[305.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.bash'
+[305.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[305.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[305.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[305.920s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake module files
+[305.930s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake config files
+[305.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[305.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[305.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[305.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[305.987s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib'
+[305.988s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[305.988s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[305.990s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/python3.10/site-packages'
+[305.992s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[305.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[305.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[306.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.sh'
+[306.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.bash'
+[306.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[306.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[309.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[309.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam
+[311.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[311.948s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake module files
+[311.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam
+[311.958s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake config files
+[311.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[311.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[311.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[311.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[311.978s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib'
+[311.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[311.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[311.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[311.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[311.992s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[311.993s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[311.996s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/python3.10/site-packages'
+[311.999s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[312.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.ps1'
+[312.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.dsv'
+[312.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.sh'
+[312.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.bash'
+[312.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.zsh'
+[312.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/usb_cam/share/colcon-core/packages/usb_cam)
+[312.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[312.030s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake module files
+[312.033s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake config files
+[312.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[312.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[312.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[312.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[312.052s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib'
+[312.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[312.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[312.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[312.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[312.064s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[312.065s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[312.067s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/python3.10/site-packages'
+[312.070s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[312.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.ps1'
+[312.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.dsv'
+[312.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.sh'
+[312.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.bash'
+[312.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.zsh'
+[312.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/usb_cam/share/colcon-core/packages/usb_cam)
+[312.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[312.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[312.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[312.116s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[312.170s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[312.170s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[312.171s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[312.311s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[312.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.ps1'
+[312.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fmp/Jeju_Island/install/_local_setup_util_ps1.py'
+[312.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.ps1'
+[312.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.sh'
+[312.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fmp/Jeju_Island/install/_local_setup_util_sh.py'
+[312.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.sh'
+[312.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.bash'
+[312.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.bash'
+[312.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.zsh'
+[312.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.zsh'

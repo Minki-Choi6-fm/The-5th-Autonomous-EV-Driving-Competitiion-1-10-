@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fmp/Jeju_Island/build/erp_mini_serial/liberp_mini_serial.so" "TARGETS" "erp_mini_serial" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

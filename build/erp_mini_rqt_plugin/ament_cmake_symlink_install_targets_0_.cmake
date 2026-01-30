@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin/liberp_mini_rqt_plugin.so" "TARGETS" "erp_mini_rqt_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

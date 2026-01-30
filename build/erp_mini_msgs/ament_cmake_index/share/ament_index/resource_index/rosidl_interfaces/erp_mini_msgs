@@ -1,0 +1,8 @@
+msg/ControlCommand.idl
+msg/ControlCommand.msg
+msg/Feedback.idl
+msg/Feedback.msg
+srv/ModeCommand.idl
+srv/ModeCommand.srv
+srv/ModeCommand_Request.msg
+srv/ModeCommand_Response.msg

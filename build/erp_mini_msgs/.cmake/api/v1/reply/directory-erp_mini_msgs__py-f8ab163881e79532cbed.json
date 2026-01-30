@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "erp_mini_msgs__py",
+		"source" : "/home/fmp/Jeju_Island/build/erp_mini_msgs/erp_mini_msgs__py"
+	}
+}

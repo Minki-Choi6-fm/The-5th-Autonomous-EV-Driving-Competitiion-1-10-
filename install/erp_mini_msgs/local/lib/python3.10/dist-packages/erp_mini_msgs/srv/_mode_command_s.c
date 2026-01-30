@@ -1,0 +1,1 @@
+/home/fmp/Jeju_Island/build/erp_mini_msgs/rosidl_generator_py/erp_mini_msgs/srv/_mode_command_s.c

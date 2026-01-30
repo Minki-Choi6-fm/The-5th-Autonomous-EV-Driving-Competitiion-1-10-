@@ -1,0 +1,4 @@
+source;share/erp_mini_cmake/local_setup.bash
+source;share/erp_mini_cmake/local_setup.dsv
+source;share/erp_mini_cmake/local_setup.sh
+source;share/erp_mini_cmake/local_setup.zsh

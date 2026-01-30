@@ -1,0 +1,80 @@
+[0.043s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin
+[0.352s] -- The C compiler identification is GNU 11.4.0
+[0.659s] -- The CXX compiler identification is GNU 11.4.0
+[0.706s] -- Detecting C compiler ABI info
+[0.995s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.042s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.061s] -- Detecting CXX compiler ABI info
+[1.414s] -- Detecting CXX compiler ABI info - done
+[1.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.456s] -- Detecting CXX compile features
+[1.457s] -- Detecting CXX compile features - done
+[1.462s] -- Found erp_mini_cmake: 0.0.0 (/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake)
+[1.484s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.240s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.609s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.194s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.216s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.254s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.771s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.781s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.219s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.345s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.577s] -- Looking for pthread.h
+[4.932s] -- Looking for pthread.h - found
+[4.933s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.246s] -- Found Threads: TRUE  
+[6.015s] -- Configuring done
+[6.080s] -- Generating done
+[6.100s] -- Build files have been written to: /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin
+[6.169s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin' returned '0': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin
+[6.177s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin -- -j4 -l4
+[6.333s] [ 11%] [34m[1mGenerating ui_feedback_monitor.h[0m
+[6.375s] [ 22%] [34m[1mGenerating ui_control_panel.h[0m
+[6.406s] [ 33%] [34m[1mGenerating include/erp_mini_rqt_plugin/moc_feedback_monitor_plugin.cpp[0m
+[6.457s] [ 44%] [34m[1mGenerating include/erp_mini_rqt_plugin/moc_control_panel_plugin.cpp[0m
+[6.521s] [ 55%] [32mBuilding CXX object CMakeFiles/erp_mini_rqt_plugin.dir/src/control_panel_plugin.cpp.o[0m
+[26.081s] [ 66%] [32mBuilding CXX object CMakeFiles/erp_mini_rqt_plugin.dir/include/erp_mini_rqt_plugin/moc_feedback_monitor_plugin.cpp.o[0m
+[38.939s] [ 77%] [32mBuilding CXX object CMakeFiles/erp_mini_rqt_plugin.dir/include/erp_mini_rqt_plugin/moc_control_panel_plugin.cpp.o[0m
+[50.988s] [ 88%] [32mBuilding CXX object CMakeFiles/erp_mini_rqt_plugin.dir/src/feedback_monitor_plugin.cpp.o[0m
+[74.547s] [100%] [32m[1mLinking CXX shared library liberp_mini_rqt_plugin.so[0m
+[76.446s] [100%] Built target erp_mini_rqt_plugin
+[76.471s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin' returned '0': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin -- -j4 -l4
+[76.478s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin
+[76.493s] -- Install configuration: ""
+[76.495s] -- Execute custom install script
+[76.495s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin//plugin.xml
+[76.515s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/include/erp_mini_rqt_plugin/erp_mini_rqt_plugin/control_panel_plugin.hpp
+[76.528s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/include/erp_mini_rqt_plugin/erp_mini_rqt_plugin/feedback_monitor_plugin.hpp
+[76.540s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/library_path.sh
+[76.553s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/library_path.dsv
+[76.573s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib/liberp_mini_rqt_plugin.so
+[76.596s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/ament_index/resource_index/package_run_dependencies/erp_mini_rqt_plugin
+[76.617s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/ament_index/resource_index/parent_prefix_path/erp_mini_rqt_plugin
+[76.635s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/ament_prefix_path.sh
+[76.652s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/ament_prefix_path.dsv
+[76.668s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/path.sh
+[76.688s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/environment/path.dsv
+[76.707s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/local_setup.bash
+[76.724s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/local_setup.sh
+[76.745s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/local_setup.zsh
+[76.771s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/local_setup.dsv
+[76.793s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.dsv
+[76.814s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/ament_index/resource_index/packages/erp_mini_rqt_plugin
+[76.835s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/ament_index/resource_index/rqt_gui__pluginlib__plugin/erp_mini_rqt_plugin
+[76.854s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[76.872s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.894s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[76.919s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/cmake/erp_mini_rqt_pluginConfig.cmake
+[76.939s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/cmake/erp_mini_rqt_pluginConfig-version.cmake
+[76.960s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.xml
+[76.972s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/plugin.xml
+[76.973s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/ui/control_panel.ui
+[76.986s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/ui/feedback_monitor.ui
+[77.000s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin' returned '0': AMENT_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin

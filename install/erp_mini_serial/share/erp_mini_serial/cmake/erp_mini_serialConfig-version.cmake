@@ -1,0 +1,1 @@
+/home/fmp/Jeju_Island/build/erp_mini_serial/ament_cmake_core/erp_mini_serialConfig-version.cmake

@@ -1,0 +1,23 @@
+[0.061s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_cmake -- -j4 -l4
+[0.296s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_cmake -- -j4 -l4
+[0.364s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_cmake
+[0.465s] -- Install configuration: ""
+[0.473s] -- Execute custom install script
+[0.474s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmake_config_extras.cmake
+[0.477s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/ament_index/resource_index/package_run_dependencies/erp_mini_cmake
+[0.478s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/ament_index/resource_index/parent_prefix_path/erp_mini_cmake
+[0.478s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/environment/ament_prefix_path.sh
+[0.485s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/environment/ament_prefix_path.dsv
+[0.486s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/environment/path.sh
+[0.486s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/environment/path.dsv
+[0.491s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.bash
+[0.491s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.sh
+[0.498s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.zsh
+[0.499s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.dsv
+[0.505s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.dsv
+[0.577s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/ament_index/resource_index/packages/erp_mini_cmake
+[0.580s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmake_config_extras.cmake
+[0.583s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmakeConfig.cmake
+[0.584s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmakeConfig-version.cmake
+[0.597s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.xml
+[0.653s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_cmake

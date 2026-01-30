@@ -1,0 +1,11 @@
+setup.py
+erp_mini_msgs/__init__.py
+erp_mini_msgs.egg-info/PKG-INFO
+erp_mini_msgs.egg-info/SOURCES.txt
+erp_mini_msgs.egg-info/dependency_links.txt
+erp_mini_msgs.egg-info/top_level.txt
+erp_mini_msgs/msg/__init__.py
+erp_mini_msgs/msg/_control_command.py
+erp_mini_msgs/msg/_feedback.py
+erp_mini_msgs/srv/__init__.py
+erp_mini_msgs/srv/_mode_command.py

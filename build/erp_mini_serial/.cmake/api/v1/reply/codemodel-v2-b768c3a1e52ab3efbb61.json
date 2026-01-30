@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0a14ed8129b3de6c400d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "erp_mini_serial",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_serial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_serial-0ead4987ff05fc58b0d4.json",
+					"name" : "erp_mini_serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_serial_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_serial_uninstall-3088a530d304fa1c736d.json",
+					"name" : "erp_mini_serial_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_bridge-1bc4ad27ab7dd5eeec54.json",
+					"name" : "serial_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_bridge_composable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_bridge_composable-4629bd1ef91fb7222da1.json",
+					"name" : "serial_bridge_composable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e60a00a569831992fde0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fmp/Jeju_Island/build/erp_mini_serial",
+		"source" : "/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_serial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

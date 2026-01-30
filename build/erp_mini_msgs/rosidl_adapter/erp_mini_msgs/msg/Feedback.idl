@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from erp_mini_msgs/msg/Feedback.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module erp_mini_msgs {
+  module msg {
+    module Feedback_Constants {
+      @verbatim (language="comment", text=
+        "Gear (Forward / Neutral / Backward)")
+      const uint8 GEAR_FORWARD = 0;
+      const uint8 GEAR_NEUTRAL = 1;
+      const uint8 GEAR_BACKWARD = 2;
+    };
+    @verbatim (language="comment", text=
+      "erp_mini_msgs/msg/Feedback.msg")
+    struct Feedback {
+      @verbatim (language="comment", text=
+        "Message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Control mode (Manual / Auto)")
+      boolean manual_mode;
+
+      @verbatim (language="comment", text=
+        "Emergency stop (ON / OFF)")
+      boolean emergency_stop;
+
+      uint8 gear;
+
+      @verbatim (language="comment", text=
+        "Vehicle speed (m/s)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "Steering angle (rad)")
+      double steering;
+
+      @verbatim (language="comment", text=
+        "Health check counter (0 - 255)")
+      uint8 heartbeat;
+    };
+  };
+};
