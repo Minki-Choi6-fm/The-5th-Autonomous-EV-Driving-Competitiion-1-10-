@@ -1,0 +1,39 @@
+running develop
+Removing /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle-control.egg-link (link to .)
+running egg_info
+writing ../../build/vehicle_control/vehicle_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_control/vehicle_control.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_control/vehicle_control.egg-info/entry_points.txt
+writing requirements to ../../build/vehicle_control/vehicle_control.egg-info/requires.txt
+writing top-level names to ../../build/vehicle_control/vehicle_control.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_control/vehicle_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/vehicle_control/vehicle_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fmp/Jeju_Island/build/vehicle_control/build
+creating /home/fmp/Jeju_Island/build/vehicle_control/build/lib
+creating /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control
+copying vehicle_control/__init__.py -> /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control
+copying vehicle_control/path_follower.py -> /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control
+copying vehicle_control/pid_controller.py -> /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control
+copying vehicle_control/motor_driver.py -> /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control
+running install
+running install_lib
+creating /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control
+copying /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control/__init__.py -> /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control
+copying /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control/path_follower.py -> /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control
+copying /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control/pid_controller.py -> /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control
+copying /home/fmp/Jeju_Island/build/vehicle_control/build/lib/vehicle_control/motor_driver.py -> /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control
+byte-compiling /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control/path_follower.py to path_follower.cpython-310.pyc
+byte-compiling /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control/pid_controller.py to pid_controller.cpython-310.pyc
+byte-compiling /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control/motor_driver.py to motor_driver.cpython-310.pyc
+running install_data
+copying resource/vehicle_control -> /home/fmp/Jeju_Island/install/vehicle_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/fmp/Jeju_Island/install/vehicle_control/share/vehicle_control
+running install_egg_info
+Copying ../../build/vehicle_control/vehicle_control.egg-info to /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_driver script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+Installing path_follower script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+writing list of installed files to '/home/fmp/Jeju_Island/build/vehicle_control/install.log'

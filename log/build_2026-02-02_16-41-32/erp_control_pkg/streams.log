@@ -1,0 +1,24 @@
+[0.835s] Invoking command in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_control_pkg': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_cmake LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/fmp/Jeju_Island/build/erp_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/erp_control_pkg build --build-base /home/fmp/Jeju_Island/build/erp_control_pkg/build install --record /home/fmp/Jeju_Island/build/erp_control_pkg/install.log --single-version-externally-managed install_data
+[1.175s] running egg_info
+[1.176s] writing ../../../../build/erp_control_pkg/erp_control_pkg.egg-info/PKG-INFO
+[1.177s] writing dependency_links to ../../../../build/erp_control_pkg/erp_control_pkg.egg-info/dependency_links.txt
+[1.177s] writing entry points to ../../../../build/erp_control_pkg/erp_control_pkg.egg-info/entry_points.txt
+[1.177s] writing requirements to ../../../../build/erp_control_pkg/erp_control_pkg.egg-info/requires.txt
+[1.177s] writing top-level names to ../../../../build/erp_control_pkg/erp_control_pkg.egg-info/top_level.txt
+[1.181s] reading manifest file '../../../../build/erp_control_pkg/erp_control_pkg.egg-info/SOURCES.txt'
+[1.182s] writing manifest file '../../../../build/erp_control_pkg/erp_control_pkg.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.183s] copying erp_control_pkg/control_node.py -> /home/fmp/Jeju_Island/build/erp_control_pkg/build/lib/erp_control_pkg
+[1.183s] running install
+[1.183s] running install_lib
+[1.184s] copying /home/fmp/Jeju_Island/build/erp_control_pkg/build/lib/erp_control_pkg/control_node.py -> /home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages/erp_control_pkg
+[1.185s] byte-compiling /home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages/erp_control_pkg/control_node.py to control_node.cpython-310.pyc
+[1.185s] running install_data
+[1.186s] running install_egg_info
+[1.188s] removing '/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages/erp_control_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.189s] Copying ../../../../build/erp_control_pkg/erp_control_pkg.egg-info to /home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages/erp_control_pkg-0.0.0-py3.10.egg-info
+[1.190s] running install_scripts
+[1.220s] Installing control_node script to /home/fmp/Jeju_Island/install/erp_control_pkg/lib/erp_control_pkg
+[1.221s] writing list of installed files to '/home/fmp/Jeju_Island/build/erp_control_pkg/install.log'
+[1.256s] Invoked command in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_cmake LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/fmp/Jeju_Island/build/erp_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/erp_control_pkg build --build-base /home/fmp/Jeju_Island/build/erp_control_pkg/build install --record /home/fmp/Jeju_Island/build/erp_control_pkg/install.log --single-version-externally-managed install_data

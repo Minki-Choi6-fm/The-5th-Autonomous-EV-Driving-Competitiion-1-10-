@@ -4,6 +4,3 @@ source;share/vehicle_control/hook/pythonpath.sh
 source;share/vehicle_control/hook/ament_prefix_path.ps1
 source;share/vehicle_control/hook/ament_prefix_path.dsv
 source;share/vehicle_control/hook/ament_prefix_path.sh
-source;../../build/vehicle_control/share/vehicle_control/hook/pythonpath_develop.ps1
-source;../../build/vehicle_control/share/vehicle_control/hook/pythonpath_develop.dsv
-source;../../build/vehicle_control/share/vehicle_control/hook/pythonpath_develop.sh

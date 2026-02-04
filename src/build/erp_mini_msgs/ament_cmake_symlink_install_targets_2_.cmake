@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fmp/Jeju_Island/src/build/erp_mini_msgs/rosidl_generator_py/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "erp_mini_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/erp_mini_msgs")

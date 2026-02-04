@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2b2ff19201b4a632e3af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "erp_mini_msgs__py",
+					"jsonFile" : "directory-erp_mini_msgs__py-091ad2358fbe9a7bd966.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/fmp/Jeju_Island/src/build/erp_mini_msgs/erp_mini_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "erp_mini_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_erp_mini_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_erp_mini_msgs_egg-c147bae03af767b75f29.json",
+					"name" : "ament_cmake_python_build_erp_mini_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_erp_mini_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_erp_mini_msgs-06029a26e2609632d3da.json",
+					"name" : "ament_cmake_python_symlink_erp_mini_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs-3a2f3ac8523d846a4ae0.json",
+					"name" : "erp_mini_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__cpp-00088212b733f2384a69.json",
+					"name" : "erp_mini_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "erp_mini_msgs__py::@e181589a6faad7612747",
+					"jsonFile" : "target-erp_mini_msgs__py-ab9a857eb7e8906aba5e.json",
+					"name" : "erp_mini_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_generator_c-c9293a3cf990a27168a5.json",
+					"name" : "erp_mini_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_generator_py-57ff4cae98bb9fe46475.json",
+					"name" : "erp_mini_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_c-ec6af29c2a3230c31c31.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_c__pyext-d8695f398eb281db5c24.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_cpp-b3195dbb5d4d7966b357.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_fastrtps_c-4a8adf3a0a92d68dba6a.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_fastrtps_c__pyext-46cac204a2705cd8f034.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_fastrtps_cpp-b4829e9b0136e8a04b16.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_introspection_c-7fc016306b06b7b88952.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_introspection_c__pyext-f53fb700dd2e7ec3bd89.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs__rosidl_typesupport_introspection_cpp-b058777c0723fa8e6001.json",
+					"name" : "erp_mini_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erp_mini_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erp_mini_msgs_uninstall-3da424175b90557a7957.json",
+					"name" : "erp_mini_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3fa7f922bdad55027a93.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fmp/Jeju_Island/src/build/erp_mini_msgs",
+		"source" : "/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

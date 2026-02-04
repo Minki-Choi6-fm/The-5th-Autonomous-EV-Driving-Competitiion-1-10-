@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target erp_mini_serial[0m
+[ 42%] Built target erp_mini_serial
+[ 71%] Built target serial_bridge_composable
+[35m[1mConsolidate compiler generated dependencies of target serial_bridge[0m
+[100%] Built target serial_bridge
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/lib/erp_mini_serial/serial_bridge_composable
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/include/erp_mini_serial/erp_mini_serial/serial_bridge.hpp
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/include/erp_mini_serial/erp_mini_serial/serial_packet.hpp
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/include/erp_mini_serial/erp_mini_serial/serial_port.hpp
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/library_path.sh
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/library_path.dsv
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/lib/liberp_mini_serial.so
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/lib/erp_mini_serial/serial_bridge
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/ament_index/resource_index/package_run_dependencies/erp_mini_serial
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/ament_index/resource_index/parent_prefix_path/erp_mini_serial
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/path.sh
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/environment/path.dsv
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/local_setup.bash
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/local_setup.sh
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/local_setup.zsh
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/local_setup.dsv
+-- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.dsv
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/ament_index/resource_index/packages/erp_mini_serial
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/ament_index/resource_index/rclcpp_components/erp_mini_serial
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/erp_mini_serialConfig.cmake
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/erp_mini_serialConfig-version.cmake
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.xml
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/config/serial_bridge.param.yaml
+-- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/config/serial_bridge.param.yaml_20250202
+-- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/launch/serial_bridge.launch.py

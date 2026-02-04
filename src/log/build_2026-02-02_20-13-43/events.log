@@ -1,0 +1,1278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000802] (erp_mini_cmake) JobQueued: {'identifier': 'erp_mini_cmake', 'dependencies': OrderedDict()}
+[0.002855] (erp_mini_msgs) JobQueued: {'identifier': 'erp_mini_msgs', 'dependencies': OrderedDict()}
+[0.002985] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003041] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003097] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.003159] (vehicle_control) JobQueued: {'identifier': 'vehicle_control', 'dependencies': OrderedDict()}
+[0.003215] (vehicle_launch) JobQueued: {'identifier': 'vehicle_launch', 'dependencies': OrderedDict()}
+[0.003258] (erp_mini_util) JobQueued: {'identifier': 'erp_mini_util', 'dependencies': OrderedDict([('erp_mini_cmake', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake')])}
+[0.003313] (erp_mini_rqt_plugin) JobQueued: {'identifier': 'erp_mini_rqt_plugin', 'dependencies': OrderedDict([('erp_mini_cmake', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake'), ('erp_mini_msgs', '/home/fmp/Jeju_Island/src/install/erp_mini_msgs'), ('erp_mini_util', '/home/fmp/Jeju_Island/src/install/erp_mini_util')])}
+[0.003390] (erp_mini_serial) JobQueued: {'identifier': 'erp_mini_serial', 'dependencies': OrderedDict([('erp_mini_cmake', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake'), ('erp_mini_msgs', '/home/fmp/Jeju_Island/src/install/erp_mini_msgs'), ('erp_mini_util', '/home/fmp/Jeju_Island/src/install/erp_mini_util')])}
+[0.003443] (erp_mini_cmake) JobStarted: {'identifier': 'erp_mini_cmake'}
+[0.052429] (erp_mini_msgs) JobStarted: {'identifier': 'erp_mini_msgs'}
+[0.093806] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.097259] (-) TimerEvent: {}
+[0.127417] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.197650] (-) TimerEvent: {}
+[0.199157] (erp_mini_cmake) JobProgress: {'identifier': 'erp_mini_cmake', 'progress': 'cmake'}
+[0.201697] (erp_mini_cmake) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_cmake', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/erp_mini_cmake'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_cmake', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[0.220498] (erp_mini_msgs) JobProgress: {'identifier': 'erp_mini_msgs', 'progress': 'cmake'}
+[0.225601] (erp_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/erp_mini_msgs'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[0.263428] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.263720] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/rplidar_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/rplidar_ros'], 'cwd': '/home/fmp/Jeju_Island/src/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[0.295302] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.295556] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/sllidar_ros2'], 'cwd': '/home/fmp/Jeju_Island/src/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[0.315576] (-) TimerEvent: {}
+[0.424713] (-) TimerEvent: {}
+[0.500226] (erp_mini_cmake) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.526816] (-) TimerEvent: {}
+[0.628941] (-) TimerEvent: {}
+[0.731434] (-) TimerEvent: {}
+[0.839306] (-) TimerEvent: {}
+[0.944352] (-) TimerEvent: {}
+[0.946446] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.020788] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.027384] (erp_mini_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.046326] (-) TimerEvent: {}
+[1.153325] (-) TimerEvent: {}
+[1.257544] (-) TimerEvent: {}
+[1.364308] (-) TimerEvent: {}
+[1.414303] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.469334] (-) TimerEvent: {}
+[1.511605] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.570365] (-) TimerEvent: {}
+[1.675325] (-) TimerEvent: {}
+[1.680743] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.780313] (-) TimerEvent: {}
+[1.793285] (erp_mini_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.798602] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.880575] (-) TimerEvent: {}
+[1.894805] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.980934] (-) TimerEvent: {}
+[2.084074] (-) TimerEvent: {}
+[2.185381] (-) TimerEvent: {}
+[2.291347] (-) TimerEvent: {}
+[2.393551] (-) TimerEvent: {}
+[2.398363] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.436062] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.471532] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.493882] (erp_mini_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.494636] (-) TimerEvent: {}
+[2.499415] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.502327] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.505166] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.508800] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.512430] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.545354] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.546076] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.554488] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.559374] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.564501] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.597332] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.597852] (-) TimerEvent: {}
+[2.704372] (-) TimerEvent: {}
+[2.748647] (erp_mini_cmake) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.805343] (-) TimerEvent: {}
+[2.912312] (-) TimerEvent: {}
+[3.015796] (-) TimerEvent: {}
+[3.119342] (-) TimerEvent: {}
+[3.123582] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.199444] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.206771] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.213435] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.219539] (-) TimerEvent: {}
+[3.246540] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.256985] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.324331] (-) TimerEvent: {}
+[3.360778] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.364333] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.370316] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.422583] (erp_mini_cmake) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.427284] (-) TimerEvent: {}
+[3.465365] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.465941] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.527567] (-) TimerEvent: {}
+[3.538522] (erp_mini_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.544261] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.551248] (erp_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.578321] (erp_mini_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.630309] (-) TimerEvent: {}
+[3.731339] (-) TimerEvent: {}
+[3.834331] (-) TimerEvent: {}
+[3.938627] (-) TimerEvent: {}
+[4.042316] (-) TimerEvent: {}
+[4.147290] (-) TimerEvent: {}
+[4.196123] (sllidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.247502] (-) TimerEvent: {}
+[4.351749] (-) TimerEvent: {}
+[4.452933] (-) TimerEvent: {}
+[4.553742] (-) TimerEvent: {}
+[4.589378] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.656364] (-) TimerEvent: {}
+[4.765303] (-) TimerEvent: {}
+[4.793607] (erp_mini_cmake) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.816291] (erp_mini_cmake) StdoutLine: {'line': b'-- Generating done\n'}
+[4.828415] (erp_mini_cmake) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/erp_mini_cmake\n'}
+[4.851009] (erp_mini_cmake) CommandEnded: {'returncode': 0}
+[4.853078] (erp_mini_cmake) JobProgress: {'identifier': 'erp_mini_cmake', 'progress': 'build'}
+[4.853370] (erp_mini_cmake) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/erp_mini_cmake', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_cmake', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[4.868498] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.869324] (-) TimerEvent: {}
+[4.869981] (erp_mini_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.971277] (-) TimerEvent: {}
+[4.980805] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.065639] (erp_mini_cmake) CommandEnded: {'returncode': 0}
+[5.074422] (-) TimerEvent: {}
+[5.079085] (erp_mini_cmake) JobProgress: {'identifier': 'erp_mini_cmake', 'progress': 'install'}
+[5.177390] (erp_mini_cmake) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fmp/Jeju_Island/src/build/erp_mini_cmake'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_cmake', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_cmake'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[5.179433] (-) TimerEvent: {}
+[5.225504] (erp_mini_cmake) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.228645] (erp_mini_cmake) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.232538] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmake_config_extras.cmake\n'}
+[5.274354] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/ament_index/resource_index/package_run_dependencies/erp_mini_cmake\n'}
+[5.281332] (-) TimerEvent: {}
+[5.317656] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/ament_index/resource_index/parent_prefix_path/erp_mini_cmake\n'}
+[5.357513] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/environment/ament_prefix_path.sh\n'}
+[5.381547] (-) TimerEvent: {}
+[5.399576] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/environment/ament_prefix_path.dsv\n'}
+[5.439290] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/environment/path.sh\n'}
+[5.477277] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/environment/path.dsv\n'}
+[5.481697] (-) TimerEvent: {}
+[5.518459] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.bash\n'}
+[5.558586] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.sh\n'}
+[5.583478] (-) TimerEvent: {}
+[5.619720] (erp_mini_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.626483] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.644201] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.zsh\n'}
+[5.663048] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.683700] (-) TimerEvent: {}
+[5.714074] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.720328] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/local_setup.dsv\n'}
+[5.780818] (erp_mini_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.784221] (-) TimerEvent: {}
+[5.786414] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/package.dsv\n'}
+[5.817470] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.822176] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/ament_index/resource_index/packages/erp_mini_cmake\n'}
+[5.856745] (erp_mini_cmake) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmake_config_extras.cmake\n'}
+[5.858800] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmakeConfig.cmake\n'}
+[5.884522] (-) TimerEvent: {}
+[5.905288] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/cmake/erp_mini_cmakeConfig-version.cmake\n'}
+[5.941247] (erp_mini_cmake) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/package.xml\n'}
+[5.960508] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.968292] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.984644] (-) TimerEvent: {}
+[5.987700] (erp_mini_cmake) CommandEnded: {'returncode': 0}
+[6.091338] (-) TimerEvent: {}
+[6.109900] (erp_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.138420] (erp_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.155408] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.180778] (erp_mini_cmake) JobEnded: {'identifier': 'erp_mini_cmake', 'rc': 0}
+[6.184736] (erp_mini_util) JobStarted: {'identifier': 'erp_mini_util'}
+[6.191573] (-) TimerEvent: {}
+[6.243013] (erp_mini_util) JobProgress: {'identifier': 'erp_mini_util', 'progress': 'cmake'}
+[6.243439] (erp_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.247750] (erp_mini_util) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/erp_mini_util'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_util', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_util'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[6.293815] (-) TimerEvent: {}
+[6.332073] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.383473] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.394034] (-) TimerEvent: {}
+[6.427306] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.490513] (erp_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.497947] (-) TimerEvent: {}
+[6.543126] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.598218] (-) TimerEvent: {}
+[6.705668] (erp_mini_util) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.706471] (-) TimerEvent: {}
+[6.774691] (erp_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.775446] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.808326] (-) TimerEvent: {}
+[6.871986] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.914300] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.914978] (-) TimerEvent: {}
+[7.018824] (-) TimerEvent: {}
+[7.122378] (-) TimerEvent: {}
+[7.209598] (erp_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.227345] (-) TimerEvent: {}
+[7.294333] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.329472] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.330243] (-) TimerEvent: {}
+[7.434339] (-) TimerEvent: {}
+[7.540324] (-) TimerEvent: {}
+[7.641328] (-) TimerEvent: {}
+[7.754388] (-) TimerEvent: {}
+[7.800608] (erp_mini_util) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.844901] (erp_mini_util) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.857348] (-) TimerEvent: {}
+[7.953747] (sllidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.960332] (-) TimerEvent: {}
+[8.067346] (-) TimerEvent: {}
+[8.168513] (-) TimerEvent: {}
+[8.277111] (-) TimerEvent: {}
+[8.287587] (sllidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.381387] (-) TimerEvent: {}
+[8.488535] (-) TimerEvent: {}
+[8.601411] (-) TimerEvent: {}
+[8.645597] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.688624] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.706358] (-) TimerEvent: {}
+[8.791380] (erp_mini_util) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.806559] (-) TimerEvent: {}
+[8.855528] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.912328] (-) TimerEvent: {}
+[8.975448] (erp_mini_util) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.991667] (erp_mini_util) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.995518] (erp_mini_util) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.012647] (-) TimerEvent: {}
+[9.054682] (erp_mini_util) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.115325] (-) TimerEvent: {}
+[9.132938] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.216310] (-) TimerEvent: {}
+[9.326806] (-) TimerEvent: {}
+[9.435335] (-) TimerEvent: {}
+[9.549368] (-) TimerEvent: {}
+[9.668373] (-) TimerEvent: {}
+[9.693478] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.699691] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.768756] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.769590] (-) TimerEvent: {}
+[9.795535] (erp_mini_util) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.875327] (-) TimerEvent: {}
+[9.916504] (erp_mini_util) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.917229] (erp_mini_util) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.928294] (erp_mini_util) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.933361] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.935504] (erp_mini_util) StdoutLine: {'line': b'-- Found erp_mini_cmake: 0.0.0 (/home/fmp/Jeju_Island/src/install/erp_mini_cmake/share/erp_mini_cmake/cmake)\n'}
+[9.968314] (erp_mini_util) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[9.983429] (-) TimerEvent: {}
+[10.088323] (-) TimerEvent: {}
+[10.195327] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.196188] (-) TimerEvent: {}
+[10.205462] (sllidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.297337] (-) TimerEvent: {}
+[10.403358] (-) TimerEvent: {}
+[10.506104] (-) TimerEvent: {}
+[10.607750] (-) TimerEvent: {}
+[10.713323] (-) TimerEvent: {}
+[10.814540] (-) TimerEvent: {}
+[10.919437] (-) TimerEvent: {}
+[11.024564] (-) TimerEvent: {}
+[11.051270] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.065301] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.124785] (-) TimerEvent: {}
+[11.228311] (-) TimerEvent: {}
+[11.330357] (-) TimerEvent: {}
+[11.430082] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.430939] (-) TimerEvent: {}
+[11.542440] (-) TimerEvent: {}
+[11.650380] (-) TimerEvent: {}
+[11.694458] (erp_mini_util) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[11.753340] (-) TimerEvent: {}
+[11.858607] (-) TimerEvent: {}
+[11.963689] (-) TimerEvent: {}
+[12.044419] (erp_mini_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.067329] (-) TimerEvent: {}
+[12.103058] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[12.154280] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.171301] (-) TimerEvent: {}
+[12.180842] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.279308] (-) TimerEvent: {}
+[12.383306] (-) TimerEvent: {}
+[12.484580] (-) TimerEvent: {}
+[12.583362] (erp_mini_util) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.584740] (-) TimerEvent: {}
+[12.687569] (-) TimerEvent: {}
+[12.792813] (-) TimerEvent: {}
+[12.894323] (-) TimerEvent: {}
+[12.999408] (-) TimerEvent: {}
+[13.106334] (-) TimerEvent: {}
+[13.137094] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.209336] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.210322] (-) TimerEvent: {}
+[13.318708] (-) TimerEvent: {}
+[13.330679] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[13.401294] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[13.431305] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/sllidar_ros2\n'}
+[13.431921] (-) TimerEvent: {}
+[13.541313] (-) TimerEvent: {}
+[13.649307] (-) TimerEvent: {}
+[13.676466] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[13.700298] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[13.700690] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[13.754417] (-) TimerEvent: {}
+[13.859709] (-) TimerEvent: {}
+[13.863612] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.966728] (-) TimerEvent: {}
+[14.069336] (-) TimerEvent: {}
+[14.177302] (-) TimerEvent: {}
+[14.180483] (sllidar_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[14.254660] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[14.278243] (-) TimerEvent: {}
+[14.343536] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[14.386416] (-) TimerEvent: {}
+[14.404619] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[14.496361] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[14.497065] (-) TimerEvent: {}
+[14.613325] (-) TimerEvent: {}
+[14.654592] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/rplidar_ros\n'}
+[14.721332] (-) TimerEvent: {}
+[14.822369] (-) TimerEvent: {}
+[14.847402] (rplidar_ros) CommandEnded: {'returncode': 0}
+[14.890869] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[14.894468] (erp_mini_util) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.895544] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[14.937725] (-) TimerEvent: {}
+[14.938443] (erp_mini_util) StdoutLine: {'line': b'-- Generating done\n'}
+[14.941286] (erp_mini_util) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/erp_mini_util\n'}
+[15.002477] (erp_mini_util) CommandEnded: {'returncode': 0}
+[15.007357] (erp_mini_util) JobProgress: {'identifier': 'erp_mini_util', 'progress': 'build'}
+[15.007544] (erp_mini_util) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/erp_mini_util', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_util', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_util'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[15.045366] (-) TimerEvent: {}
+[15.151524] (-) TimerEvent: {}
+[15.255388] (-) TimerEvent: {}
+[15.359336] (-) TimerEvent: {}
+[15.468326] (-) TimerEvent: {}
+[15.572972] (-) TimerEvent: {}
+[15.642657] (erp_mini_util) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/erp_mini_util.dir/src/log.cpp.o\x1b[0m\n'}
+[15.680361] (-) TimerEvent: {}
+[15.785401] (-) TimerEvent: {}
+[15.898357] (-) TimerEvent: {}
+[16.007427] (-) TimerEvent: {}
+[16.113263] (-) TimerEvent: {}
+[16.218454] (-) TimerEvent: {}
+[16.296386] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[16.325354] (-) TimerEvent: {}
+[16.391583] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[16.437388] (-) TimerEvent: {}
+[16.508575] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o\x1b[0m\n'}
+[16.536351] (rplidar_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[16.546081] (-) TimerEvent: {}
+[16.653355] (-) TimerEvent: {}
+[16.754721] (-) TimerEvent: {}
+[16.859341] (-) TimerEvent: {}
+[16.977132] (-) TimerEvent: {}
+[17.083382] (-) TimerEvent: {}
+[17.193345] (-) TimerEvent: {}
+[17.296193] (-) TimerEvent: {}
+[17.401400] (-) TimerEvent: {}
+[17.512712] (-) TimerEvent: {}
+[17.625420] (-) TimerEvent: {}
+[17.734346] (-) TimerEvent: {}
+[17.840342] (-) TimerEvent: {}
+[17.952354] (-) TimerEvent: {}
+[18.053367] (-) TimerEvent: {}
+[18.164450] (-) TimerEvent: {}
+[18.272428] (-) TimerEvent: {}
+[18.377332] (-) TimerEvent: {}
+[18.484426] (-) TimerEvent: {}
+[18.591910] (-) TimerEvent: {}
+[18.699049] (-) TimerEvent: {}
+[18.809424] (-) TimerEvent: {}
+[18.914322] (-) TimerEvent: {}
+[19.029362] (-) TimerEvent: {}
+[19.139338] (-) TimerEvent: {}
+[19.248342] (-) TimerEvent: {}
+[19.349497] (-) TimerEvent: {}
+[19.459324] (-) TimerEvent: {}
+[19.560383] (-) TimerEvent: {}
+[19.664355] (-) TimerEvent: {}
+[19.773469] (-) TimerEvent: {}
+[19.883357] (-) TimerEvent: {}
+[19.990356] (-) TimerEvent: {}
+[20.093464] (-) TimerEvent: {}
+[20.205373] (-) TimerEvent: {}
+[20.311288] (-) TimerEvent: {}
+[20.414332] (-) TimerEvent: {}
+[20.521413] (-) TimerEvent: {}
+[20.625338] (-) TimerEvent: {}
+[20.726797] (-) TimerEvent: {}
+[20.839342] (-) TimerEvent: {}
+[20.943330] (-) TimerEvent: {}
+[21.047371] (-) TimerEvent: {}
+[21.137296] (erp_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.150272] (-) TimerEvent: {}
+[21.259321] (-) TimerEvent: {}
+[21.363321] (-) TimerEvent: {}
+[21.467414] (-) TimerEvent: {}
+[21.582332] (-) TimerEvent: {}
+[21.687569] (-) TimerEvent: {}
+[21.791366] (-) TimerEvent: {}
+[21.903362] (-) TimerEvent: {}
+[22.007343] (-) TimerEvent: {}
+[22.111328] (-) TimerEvent: {}
+[22.217443] (-) TimerEvent: {}
+[22.331715] (-) TimerEvent: {}
+[22.453385] (-) TimerEvent: {}
+[22.562325] (-) TimerEvent: {}
+[22.668312] (-) TimerEvent: {}
+[22.775401] (-) TimerEvent: {}
+[22.907344] (-) TimerEvent: {}
+[23.018342] (-) TimerEvent: {}
+[23.127320] (-) TimerEvent: {}
+[23.231862] (-) TimerEvent: {}
+[23.344341] (-) TimerEvent: {}
+[23.445782] (-) TimerEvent: {}
+[23.557347] (-) TimerEvent: {}
+[23.667455] (-) TimerEvent: {}
+[23.774314] (-) TimerEvent: {}
+[23.880364] (-) TimerEvent: {}
+[23.981521] (-) TimerEvent: {}
+[24.087920] (-) TimerEvent: {}
+[24.193355] (-) TimerEvent: {}
+[24.304346] (-) TimerEvent: {}
+[24.405440] (-) TimerEvent: {}
+[24.430368] (erp_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.513343] (-) TimerEvent: {}
+[24.518606] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[24.519339] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[24.519809] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[24.536349] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[24.542310] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.542971] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.543469] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.560322] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[24.561044] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[24.561503] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[24.561917] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[24.562305] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.562680] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.563023] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.621311] (-) TimerEvent: {}
+[24.730314] (-) TimerEvent: {}
+[24.848639] (-) TimerEvent: {}
+[24.955358] (-) TimerEvent: {}
+[25.067331] (-) TimerEvent: {}
+[25.140384] (erp_mini_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[25.170453] (-) TimerEvent: {}
+[25.244010] (erp_mini_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[25.278415] (-) TimerEvent: {}
+[25.390337] (-) TimerEvent: {}
+[25.509322] (-) TimerEvent: {}
+[25.610333] (-) TimerEvent: {}
+[25.712422] (-) TimerEvent: {}
+[25.822333] (-) TimerEvent: {}
+[25.923582] (erp_mini_util) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liberp_mini_util.so\x1b[0m\n'}
+[25.924380] (-) TimerEvent: {}
+[26.032372] (-) TimerEvent: {}
+[26.138358] (-) TimerEvent: {}
+[26.178935] (erp_mini_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[26.212881] (erp_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.213713] (erp_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[26.214192] (erp_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[26.245631] (-) TimerEvent: {}
+[26.306260] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[26.306986] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/src/sdkcommon.h:41\x1b[m\x1b[K,\n'}
+[26.307377] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[26.307648] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.307884] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.308121] (sllidar_ros2) StderrLine: {'line': b'  733 |             assert(\x1b[01;35m\x1b[Kans == len\x1b[m\x1b[K);\n'}
+[26.308359] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[26.335393] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.336017] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.336380] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[26.336704] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[26.349302] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.349938] (-) TimerEvent: {}
+[26.350832] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.351329] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[26.351622] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[26.351930] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.363590] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.364123] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[26.364558] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[26.364910] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.365285] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.365657] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[26.365977] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[26.387710] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::cancelOperation()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.388516] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.389036] (sllidar_ros2) StderrLine: {'line': b'  427 |     \x1b[01;35m\x1b[K(int)::write(_selfpipe[1], "x", 1)\x1b[m\x1b[K;\n'}
+[26.389472] (sllidar_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.455324] (-) TimerEvent: {}
+[26.562323] (-) TimerEvent: {}
+[26.664791] (-) TimerEvent: {}
+[26.739319] (erp_mini_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[26.767328] (-) TimerEvent: {}
+[26.874326] (-) TimerEvent: {}
+[26.977332] (-) TimerEvent: {}
+[27.086312] (-) TimerEvent: {}
+[27.192396] (-) TimerEvent: {}
+[27.298361] (-) TimerEvent: {}
+[27.402339] (-) TimerEvent: {}
+[27.512342] (-) TimerEvent: {}
+[27.616497] (-) TimerEvent: {}
+[27.733338] (-) TimerEvent: {}
+[27.834315] (-) TimerEvent: {}
+[27.939326] (-) TimerEvent: {}
+[27.997630] (erp_mini_util) StdoutLine: {'line': b'[100%] Built target erp_mini_util\n'}
+[28.045507] (-) TimerEvent: {}
+[28.156316] (-) TimerEvent: {}
+[28.263333] (-) TimerEvent: {}
+[28.313366] (erp_mini_util) CommandEnded: {'returncode': 0}
+[28.318688] (erp_mini_util) JobProgress: {'identifier': 'erp_mini_util', 'progress': 'install'}
+[28.337010] (erp_mini_util) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fmp/Jeju_Island/src/build/erp_mini_util'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_util', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_util'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/src/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[28.363614] (-) TimerEvent: {}
+[28.475415] (-) TimerEvent: {}
+[28.548313] (erp_mini_util) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.562257] (erp_mini_util) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.562739] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/include/erp_mini_util/erp_mini_util/exception.hpp\n'}
+[28.574356] (erp_mini_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[28.581416] (-) TimerEvent: {}
+[28.687340] (-) TimerEvent: {}
+[28.794400] (-) TimerEvent: {}
+[28.816416] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/include/erp_mini_util/erp_mini_util/log.hpp\n'}
+[28.900309] (-) TimerEvent: {}
+[28.924518] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/library_path.sh\n'}
+[29.000578] (-) TimerEvent: {}
+[29.007352] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/library_path.dsv\n'}
+[29.103379] (-) TimerEvent: {}
+[29.148335] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/lib/liberp_mini_util.so\n'}
+[29.207525] (-) TimerEvent: {}
+[29.312415] (-) TimerEvent: {}
+[29.332612] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/ament_index/resource_index/package_run_dependencies/erp_mini_util\n'}
+[29.414354] (-) TimerEvent: {}
+[29.495376] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/ament_index/resource_index/parent_prefix_path/erp_mini_util\n'}
+[29.520522] (-) TimerEvent: {}
+[29.628366] (-) TimerEvent: {}
+[29.693632] (erp_mini_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[29.707633] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/ament_prefix_path.sh\n'}
+[29.739621] (-) TimerEvent: {}
+[29.852324] (-) TimerEvent: {}
+[29.859998] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/ament_prefix_path.dsv\n'}
+[29.960316] (-) TimerEvent: {}
+[30.054697] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/path.sh\n'}
+[30.068568] (-) TimerEvent: {}
+[30.111529] (erp_mini_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/erp_mini_msgs\n'}
+[30.171363] (-) TimerEvent: {}
+[30.222464] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.223298] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.223765] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[30.224116] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[30.224526] (erp_mini_msgs) CommandEnded: {'returncode': 0}
+[30.230392] (erp_mini_msgs) JobProgress: {'identifier': 'erp_mini_msgs', 'progress': 'build'}
+[30.230521] (erp_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/erp_mini_msgs', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/erp_mini_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/erp_mini_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[30.244331] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.244988] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.245461] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[30.245811] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[30.249364] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.255369] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.255978] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[30.256338] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[30.256646] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.256935] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.257274] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[30.257586] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[30.282326] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::cancelOperation()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.283027] (-) TimerEvent: {}
+[30.283649] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.284135] (rplidar_ros) StderrLine: {'line': b'  427 |     \x1b[01;35m\x1b[K(int)::write(_selfpipe[1], "x", 1)\x1b[m\x1b[K;\n'}
+[30.284507] (rplidar_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.303339] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/environment/path.dsv\n'}
+[30.385399] (-) TimerEvent: {}
+[30.499452] (-) TimerEvent: {}
+[30.507482] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/local_setup.bash\n'}
+[30.603344] (-) TimerEvent: {}
+[30.659666] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/local_setup.sh\n'}
+[30.709483] (-) TimerEvent: {}
+[30.813404] (-) TimerEvent: {}
+[30.853703] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/local_setup.zsh\n'}
+[30.916379] (-) TimerEvent: {}
+[30.935500] (erp_mini_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[30.996550] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/local_setup.dsv\n'}
+[31.021358] (-) TimerEvent: {}
+[31.123010] (-) TimerEvent: {}
+[31.143316] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/package.dsv\n'}
+[31.232321] (-) TimerEvent: {}
+[31.313650] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/ament_index/resource_index/packages/erp_mini_util\n'}
+[31.336443] (-) TimerEvent: {}
+[31.440352] (-) TimerEvent: {}
+[31.525422] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.544342] (-) TimerEvent: {}
+[31.648210] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.648837] (-) TimerEvent: {}
+[31.756322] (-) TimerEvent: {}
+[31.785100] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/cmake/erp_mini_utilConfig.cmake\n'}
+[31.860399] (-) TimerEvent: {}
+[31.933361] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/cmake/erp_mini_utilConfig-version.cmake\n'}
+[31.960694] (-) TimerEvent: {}
+[32.066431] (-) TimerEvent: {}
+[32.152541] (erp_mini_util) StdoutLine: {'line': b'-- Symlinking: /home/fmp/Jeju_Island/src/install/erp_mini_util/share/erp_mini_util/package.xml\n'}
+[32.170336] (-) TimerEvent: {}
+[32.283332] (-) TimerEvent: {}
+[32.358305] (erp_mini_util) CommandEnded: {'returncode': 0}
+[32.390492] (-) TimerEvent: {}
+[32.493894] (-) TimerEvent: {}
+[32.609407] (-) TimerEvent: {}
+[32.721318] (-) TimerEvent: {}
+[32.798325] (erp_mini_util) JobEnded: {'identifier': 'erp_mini_util', 'rc': 0}
+[32.800063] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[32.841363] (-) TimerEvent: {}
+[32.932389] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[32.932704] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/fmp/Jeju_Island/src/usb_cam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/src/install/usb_cam'], 'cwd': '/home/fmp/Jeju_Island/src/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[32.943438] (-) TimerEvent: {}
+[33.048514] (-) TimerEvent: {}
+[33.160378] (-) TimerEvent: {}
+[33.264417] (-) TimerEvent: {}
+[33.315115] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[33.370361] (-) TimerEvent: {}
+[33.476067] (-) TimerEvent: {}
+[33.583394] (-) TimerEvent: {}
+[33.684803] (-) TimerEvent: {}
+[33.746551] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[33.789322] (-) TimerEvent: {}
+[33.861588] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[33.896405] (-) TimerEvent: {}
+[33.999316] (-) TimerEvent: {}
+[34.106379] (-) TimerEvent: {}
+[34.207493] (-) TimerEvent: {}
+[34.311325] (-) TimerEvent: {}
+[34.417313] (-) TimerEvent: {}
+[34.523393] (-) TimerEvent: {}
+[34.624810] (-) TimerEvent: {}
+[34.731358] (-) TimerEvent: {}
+[34.828905] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.835317] (-) TimerEvent: {}
+[34.939346] (-) TimerEvent: {}
+[35.014261] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[35.019309] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[35.029521] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[35.045317] (-) TimerEvent: {}
+[35.059791] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[35.145613] (-) TimerEvent: {}
+[35.251423] (-) TimerEvent: {}
+[35.352368] (-) TimerEvent: {}
+[35.461371] (-) TimerEvent: {}
+[35.564394] (-) TimerEvent: {}
+[35.665689] (-) TimerEvent: {}
+[35.775346] (-) TimerEvent: {}
+[35.876531] (-) TimerEvent: {}
+[35.986341] (-) TimerEvent: {}
+[36.031582] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[36.089312] (-) TimerEvent: {}
+[36.167647] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[36.168540] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[36.189777] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[36.190545] (-) TimerEvent: {}
+[36.236377] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[36.295365] (-) TimerEvent: {}
+[36.396508] (-) TimerEvent: {}
+[36.499654] (-) TimerEvent: {}
+[36.606464] (-) TimerEvent: {}
+[36.712332] (-) TimerEvent: {}
+[36.816375] (-) TimerEvent: {}
+[36.925312] (-) TimerEvent: {}
+[37.035314] (-) TimerEvent: {}
+[37.144323] (-) TimerEvent: {}
+[37.248363] (-) TimerEvent: {}
+[37.352305] (-) TimerEvent: {}
+[37.459644] (-) TimerEvent: {}
+[37.574352] (-) TimerEvent: {}
+[37.685340] (-) TimerEvent: {}
+[37.792352] (-) TimerEvent: {}
+[37.896305] (-) TimerEvent: {}
+[37.997616] (-) TimerEvent: {}
+[38.098505] (-) TimerEvent: {}
+[38.121575] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[38.198660] (-) TimerEvent: {}
+[38.299791] (-) TimerEvent: {}
+[38.403294] (-) TimerEvent: {}
+[38.504592] (-) TimerEvent: {}
+[38.613325] (-) TimerEvent: {}
+[38.723315] (usb_cam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[38.724023] (-) TimerEvent: {}
+[38.827947] (-) TimerEvent: {}
+[38.932506] (-) TimerEvent: {}
+[39.045312] (-) TimerEvent: {}
+[39.146302] (-) TimerEvent: {}
+[39.260068] (-) TimerEvent: {}
+[39.368325] (-) TimerEvent: {}
+[39.472300] (-) TimerEvent: {}
+[39.576404] (-) TimerEvent: {}
+[39.683455] (-) TimerEvent: {}
+[39.790323] (-) TimerEvent: {}
+[39.894518] (-) TimerEvent: {}
+[40.000703] (-) TimerEvent: {}
+[40.105378] (-) TimerEvent: {}
+[40.220321] (-) TimerEvent: {}
+[40.321613] (-) TimerEvent: {}
+[40.442355] (-) TimerEvent: {}
+[40.543597] (-) TimerEvent: {}
+[40.647317] (-) TimerEvent: {}
+[40.757565] (-) TimerEvent: {}
+[40.858842] (-) TimerEvent: {}
+[40.962844] (-) TimerEvent: {}
+[41.067585] (-) TimerEvent: {}
+[41.168670] (-) TimerEvent: {}
+[41.274469] (-) TimerEvent: {}
+[41.375581] (-) TimerEvent: {}
+[41.390020] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[41.481235] (-) TimerEvent: {}
+[41.524524] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[41.585353] (-) TimerEvent: {}
+[41.689861] (-) TimerEvent: {}
+[41.723700] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[41.792440] (-) TimerEvent: {}
+[41.898358] (-) TimerEvent: {}
+[42.004400] (-) TimerEvent: {}
+[42.047295] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[42.108346] (-) TimerEvent: {}
+[42.163522] (erp_mini_msgs) StdoutLine: {'line': b'[  2%] Built target erp_mini_msgs__cpp\n'}
+[42.210411] (-) TimerEvent: {}
+[42.313209] (-) TimerEvent: {}
+[42.419435] (-) TimerEvent: {}
+[42.457349] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[42.522544] (-) TimerEvent: {}
+[42.573325] (erp_mini_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_erp_mini_msgs\n'}
+[42.625343] (-) TimerEvent: {}
+[42.729343] (-) TimerEvent: {}
+[42.753486] (erp_mini_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[42.834362] (-) TimerEvent: {}
+[42.935567] (-) TimerEvent: {}
+[43.041393] (-) TimerEvent: {}
+[43.148345] (-) TimerEvent: {}
+[43.252321] (-) TimerEvent: {}
+[43.356430] (-) TimerEvent: {}
+[43.458257] (-) TimerEvent: {}
+[43.566334] (-) TimerEvent: {}
+[43.573288] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[43.640308] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[43.669374] (-) TimerEvent: {}
+[43.770360] (-) TimerEvent: {}
+[43.874358] (-) TimerEvent: {}
+[43.977336] (-) TimerEvent: {}
+[44.083329] (-) TimerEvent: {}
+[44.188449] (-) TimerEvent: {}
+[44.289465] (-) TimerEvent: {}
+[44.394332] (-) TimerEvent: {}
+[44.500367] (-) TimerEvent: {}
+[44.601585] (-) TimerEvent: {}
+[44.704354] (-) TimerEvent: {}
+[44.809441] (-) TimerEvent: {}
+[44.916390] (-) TimerEvent: {}
+[45.020357] (-) TimerEvent: {}
+[45.087548] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[45.126330] (-) TimerEvent: {}
+[45.230331] (-) TimerEvent: {}
+[45.337783] (-) TimerEvent: {}
+[45.445669] (-) TimerEvent: {}
+[45.551335] (-) TimerEvent: {}
+[45.560918] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[45.653300] (-) TimerEvent: {}
+[45.757383] (-) TimerEvent: {}
+[45.862329] (-) TimerEvent: {}
+[45.963769] (-) TimerEvent: {}
+[46.073888] (-) TimerEvent: {}
+[46.168494] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[46.174173] (-) TimerEvent: {}
+[46.275344] (-) TimerEvent: {}
+[46.360675] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[46.379341] (-) TimerEvent: {}
+[46.485362] (-) TimerEvent: {}
+[46.593339] (-) TimerEvent: {}
+[46.696376] (-) TimerEvent: {}
+[46.800507] (-) TimerEvent: {}
+[46.901584] (-) TimerEvent: {}
+[47.002615] (-) TimerEvent: {}
+[47.109322] (-) TimerEvent: {}
+[47.213403] (-) TimerEvent: {}
+[47.314850] (-) TimerEvent: {}
+[47.420326] (-) TimerEvent: {}
+[47.526352] (-) TimerEvent: {}
+[47.627898] (-) TimerEvent: {}
+[47.731724] (-) TimerEvent: {}
+[47.757099] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[47.769313] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[47.833400] (-) TimerEvent: {}
+[47.935323] (-) TimerEvent: {}
+[48.045595] (-) TimerEvent: {}
+[48.148333] (-) TimerEvent: {}
+[48.255349] (-) TimerEvent: {}
+[48.359345] (-) TimerEvent: {}
+[48.463359] (-) TimerEvent: {}
+[48.567642] (-) TimerEvent: {}
+[48.671379] (-) TimerEvent: {}
+[48.775332] (-) TimerEvent: {}
+[48.877430] (-) TimerEvent: {}
+[48.987348] (-) TimerEvent: {}
+[49.089509] (-) TimerEvent: {}
+[49.091447] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[49.127324] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[49.195336] (-) TimerEvent: {}
+[49.297340] (-) TimerEvent: {}
+[49.404381] (-) TimerEvent: {}
+[49.509197] (-) TimerEvent: {}
+[49.615377] (-) TimerEvent: {}
+[49.735345] (-) TimerEvent: {}
+[49.842323] (-) TimerEvent: {}
+[49.946379] (-) TimerEvent: {}
+[50.051600] (-) TimerEvent: {}
+[50.164336] (-) TimerEvent: {}
+[50.270392] (-) TimerEvent: {}
+[50.376344] (-) TimerEvent: {}
+[50.482369] (-) TimerEvent: {}
+[50.585360] (-) TimerEvent: {}
+[50.689397] (-) TimerEvent: {}
+[50.796348] (-) TimerEvent: {}
+[50.905348] (-) TimerEvent: {}
+[51.012320] (-) TimerEvent: {}
+[51.123389] (-) TimerEvent: {}
+[51.232449] (-) TimerEvent: {}
+[51.342351] (-) TimerEvent: {}
+[51.453298] (-) TimerEvent: {}
+[51.556343] (-) TimerEvent: {}
+[51.657347] (-) TimerEvent: {}
+[51.761954] (-) TimerEvent: {}
+[51.872357] (-) TimerEvent: {}
+[51.982760] (-) TimerEvent: {}
+[52.099350] (-) TimerEvent: {}
+[52.203342] (-) TimerEvent: {}
+[52.309320] (-) TimerEvent: {}
+[52.424363] (-) TimerEvent: {}
+[52.526354] (-) TimerEvent: {}
+[52.635415] (-) TimerEvent: {}
+[52.741330] (-) TimerEvent: {}
+[52.847314] (-) TimerEvent: {}
+[52.948342] (-) TimerEvent: {}
+[53.058378] (-) TimerEvent: {}
+[53.163348] (-) TimerEvent: {}
+[53.283341] (-) TimerEvent: {}
+[53.391386] (-) TimerEvent: {}
+[53.499358] (-) TimerEvent: {}
+[53.607393] (-) TimerEvent: {}
+[53.713366] (-) TimerEvent: {}
+[53.829381] (-) TimerEvent: {}
+[53.931588] (-) TimerEvent: {}
+[53.971339] (erp_mini_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/erp_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erp_mini_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp.o\x1b[0m\n'}
+[54.040467] (-) TimerEvent: {}
+[54.150330] (-) TimerEvent: {}
+[54.261386] (-) TimerEvent: {}
+[54.373337] (-) TimerEvent: {}
+[54.477324] (-) TimerEvent: {}
+[54.590322] (-) TimerEvent: {}
+[54.700347] (-) TimerEvent: {}
+[54.806712] (-) TimerEvent: {}
+[54.919386] (-) TimerEvent: {}
+[55.024989] (-) TimerEvent: {}
+[55.134331] (-) TimerEvent: {}
+[55.243501] (-) TimerEvent: {}
+[55.308606] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[55.348482] (-) TimerEvent: {}
+[55.397355] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[55.413540] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[55.451357] (-) TimerEvent: {}
+[55.555341] (-) TimerEvent: {}
+[55.674293] (-) TimerEvent: {}
+[55.734671] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[55.776353] (-) TimerEvent: {}
+[55.889323] (-) TimerEvent: {}
+[55.995389] (-) TimerEvent: {}
+[56.104585] (-) TimerEvent: {}
+[56.212412] (-) TimerEvent: {}
+[56.328473] (-) TimerEvent: {}
+[56.434319] (-) TimerEvent: {}
+[56.535263] (-) TimerEvent: {}
+[56.577882] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[56.639460] (-) TimerEvent: {}
+[56.744094] (-) TimerEvent: {}
+[56.811101] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[56.856382] (-) TimerEvent: {}
+[56.959432] (-) TimerEvent: {}
+[57.063391] (-) TimerEvent: {}
+[57.167422] (-) TimerEvent: {}
+[57.268822] (-) TimerEvent: {}
+[57.374344] (-) TimerEvent: {}
+[57.485342] (-) TimerEvent: {}
+[57.531525] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[57.587403] (-) TimerEvent: {}
+[57.690406] (-) TimerEvent: {}
+[57.800358] (-) TimerEvent: {}
+[57.901797] (-) TimerEvent: {}
+[57.928491] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[58.004335] (-) TimerEvent: {}
+[58.118443] (-) TimerEvent: {}
+[58.226362] (-) TimerEvent: {}
+[58.337457] (-) TimerEvent: {}
+[58.447336] (-) TimerEvent: {}
+[58.548989] (-) TimerEvent: {}
+[58.685424] (-) TimerEvent: {}
+[58.789736] (-) TimerEvent: {}
+[58.876333] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[58.889983] (-) TimerEvent: {}
+[58.992736] (-) TimerEvent: {}
+[59.112366] (-) TimerEvent: {}
+[59.226493] (-) TimerEvent: {}
+[59.353352] (-) TimerEvent: {}
+[59.454469] (-) TimerEvent: {}
+[59.573365] (-) TimerEvent: {}
+[59.692353] (-) TimerEvent: {}
+[59.799684] (-) TimerEvent: {}
+[59.874341] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[59.904360] (-) TimerEvent: {}
+[60.010363] (-) TimerEvent: {}
+[60.096617] (usb_cam) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/usb_cam` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[60.115429] (-) TimerEvent: {}
+[60.223762] (-) TimerEvent: {}
+[60.329398] (-) TimerEvent: {}
+[60.367378] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[60.432047] (-) TimerEvent: {}
+[60.503508] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[60.510586] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/fmp/Jeju_Island/src/usb_cam/include\n'}
+[60.511448] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[60.537388] (-) TimerEvent: {}
+[60.644418] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[60.645366] (-) TimerEvent: {}
+[60.652315] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[60.710732] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[60.751355] (-) TimerEvent: {}
+[60.771905] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[60.793486] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[60.856408] (-) TimerEvent: {}
+[60.903021] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[60.908472] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[60.950837] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[60.959690] (-) TimerEvent: {}
+[61.028923] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[61.066422] (-) TimerEvent: {}
+[61.174993] (-) TimerEvent: {}
+[61.298083] (-) TimerEvent: {}
+[61.409377] (-) TimerEvent: {}
+[61.515365] (-) TimerEvent: {}
+[61.633394] (-) TimerEvent: {}
+[61.746897] (-) TimerEvent: {}
+[61.854390] (-) TimerEvent: {}
+[61.961352] (-) TimerEvent: {}
+[61.996459] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[62.062361] (-) TimerEvent: {}
+[62.172396] (-) TimerEvent: {}
+[62.190343] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/fmp/Jeju_Island/src/build/usb_cam\n'}
+[62.272690] (-) TimerEvent: {}
+[62.380650] (-) TimerEvent: {}
+[62.486362] (-) TimerEvent: {}
+[62.513551] (usb_cam) CommandEnded: {'returncode': 0}
+[62.515182] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[62.532494] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fmp/Jeju_Island/src/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/fmp/Jeju_Island/src/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fmp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fmp'), ('OLDPWD', '/home/fmp'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/fmp/.nvm/versions/node/v24.13.0/bin'), ('NVM_INC', '/home/fmp/.nvm/versions/node/v24.13.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '656'), ('SYSTEMD_EXEC_PID', '793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17243'), ('NVM_DIR', '/home/fmp/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fmp/Jeju_Island/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fmp'), ('JOURNAL_STREAM', '8:8673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fmp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/769,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/769'), ('INVOCATION_ID', 'c4f1bc55eb904882a5d7f1bf6ff91e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TKONK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0ed41fb8-4009-40ef-a4d9-9e38115d830d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fmp/Jeju_Island/src/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble')]), 'shell': False}
+[62.604424] (-) TimerEvent: {}
+[62.709396] (-) TimerEvent: {}
+[62.820334] (-) TimerEvent: {}
+[62.928352] (-) TimerEvent: {}
+[63.042636] (-) TimerEvent: {}
+[63.164779] (-) TimerEvent: {}
+[63.269749] (-) TimerEvent: {}
+[63.374894] (-) TimerEvent: {}
+[63.500387] (-) TimerEvent: {}
+[63.607456] (-) TimerEvent: {}
+[63.722393] (-) TimerEvent: {}
+[63.827360] (-) TimerEvent: {}
+[63.932472] (-) TimerEvent: {}
+[63.964353] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[64.038340] (-) TimerEvent: {}
+[64.148712] (-) TimerEvent: {}
+[64.251635] (-) TimerEvent: {}
+[64.357589] (-) TimerEvent: {}
+[64.468342] (-) TimerEvent: {}
+[64.576724] (-) TimerEvent: {}
+[64.683371] (-) TimerEvent: {}
+[64.796343] (-) TimerEvent: {}
+[64.900403] (-) TimerEvent: {}
+[65.018373] (-) TimerEvent: {}
+[65.127378] (-) TimerEvent: {}
+[65.253380] (-) TimerEvent: {}
+[65.369438] (-) TimerEvent: {}
+[65.479621] (-) TimerEvent: {}
+[65.591389] (-) TimerEvent: {}
+[65.690700] (erp_mini_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/erp_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erp_mini_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o\x1b[0m\n'}
+[65.691709] (-) TimerEvent: {}
+[65.804359] (-) TimerEvent: {}
+[65.913185] (-) TimerEvent: {}
+[66.030355] (-) TimerEvent: {}
+[66.137424] (-) TimerEvent: {}
+[66.247348] (-) TimerEvent: {}
+[66.348331] (-) TimerEvent: {}
+[66.455413] (-) TimerEvent: {}
+[66.564328] (-) TimerEvent: {}
+[66.673371] (-) TimerEvent: {}
+[66.779724] (-) TimerEvent: {}
+[66.891353] (-) TimerEvent: {}
+[67.000354] (-) TimerEvent: {}
+[67.119975] (-) TimerEvent: {}
+[67.228357] (-) TimerEvent: {}
+[67.345913] (-) TimerEvent: {}
+[67.452544] (-) TimerEvent: {}
+[67.559686] (-) TimerEvent: {}
+[67.686370] (-) TimerEvent: {}
+[67.793399] (-) TimerEvent: {}
+[67.901412] (-) TimerEvent: {}
+[68.012386] (-) TimerEvent: {}
+[68.124325] (-) TimerEvent: {}
+[68.238715] (-) TimerEvent: {}
+[68.342459] (-) TimerEvent: {}
+[68.419360] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[68.420197] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[68.420738] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[68.421173] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[68.421605] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.422028] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[68.434336] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[68.441184] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[68.444627] (-) TimerEvent: {}
+[68.448686] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[68.455832] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[68.456553] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.457073] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[68.472352] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[68.549364] (-) TimerEvent: {}
+[68.653448] (-) TimerEvent: {}
+[68.761399] (-) TimerEvent: {}
+[68.868402] (-) TimerEvent: {}
+[68.975405] (-) TimerEvent: {}
+[69.082335] (-) TimerEvent: {}
+[69.186337] (-) TimerEvent: {}
+[69.292330] (-) TimerEvent: {}
+[69.402353] (-) TimerEvent: {}
+[69.504240] (-) TimerEvent: {}
+[69.616478] (-) TimerEvent: {}
+[69.721390] (-) TimerEvent: {}
+[69.828343] (-) TimerEvent: {}
+[69.843005] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[69.846473] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[69.855736] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[69.856698] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[69.857450] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[69.876588] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[69.877560] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[69.884399] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[69.885177] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[69.885665] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[69.886038] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[69.895708] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[69.896190] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[69.935414] (-) TimerEvent: {}
+[70.037024] (-) TimerEvent: {}
+[70.148053] (-) TimerEvent: {}
+[70.257928] (-) TimerEvent: {}
+[70.366331] (-) TimerEvent: {}
+[70.469352] (-) TimerEvent: {}
+[70.574349] (-) TimerEvent: {}
+[70.625371] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[70.626208] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[70.641833] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[70.642340] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[70.642733] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[70.643108] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[70.643556] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[70.643964] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[70.654842] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[70.655335] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[70.655760] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fmp/Jeju_Island/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[70.656122] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[70.656503] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[70.683411] (-) TimerEvent: {}
+[70.791411] (-) TimerEvent: {}
+[70.901355] (-) TimerEvent: {}
+[71.002580] (-) TimerEvent: {}
+[71.107395] (-) TimerEvent: {}
+[71.219410] (-) TimerEvent: {}
+[71.329273] (-) TimerEvent: {}
+[71.438398] (-) TimerEvent: {}
+[71.552439] (-) TimerEvent: {}
+[71.655378] (-) TimerEvent: {}
+[71.762370] (-) TimerEvent: {}
+[71.873573] (-) TimerEvent: {}
+[71.992499] (-) TimerEvent: {}
+[72.097286] (-) TimerEvent: {}
+[72.206362] (-) TimerEvent: {}
+[72.313359] (-) TimerEvent: {}
+[72.419374] (-) TimerEvent: {}
+[72.521666] (-) TimerEvent: {}
+[72.632463] (-) TimerEvent: {}
+[72.739354] (-) TimerEvent: {}
+[72.850476] (-) TimerEvent: {}
+[72.954437] (-) TimerEvent: {}
+[73.061751] (-) TimerEvent: {}
+[73.170377] (-) TimerEvent: {}
+[73.281360] (-) TimerEvent: {}
+[73.391384] (-) TimerEvent: {}
+[73.493375] (-) TimerEvent: {}
+[73.605334] (-) TimerEvent: {}
+[73.708381] (-) TimerEvent: {}
+[73.811351] (-) TimerEvent: {}
+[73.923359] (-) TimerEvent: {}
+[74.030342] (-) TimerEvent: {}
+[74.140356] (-) TimerEvent: {}
+[74.246343] (-) TimerEvent: {}
+[74.352346] (-) TimerEvent: {}
+[74.461726] (-) TimerEvent: {}
+[74.562730] (-) TimerEvent: {}
+[74.666629] (-) TimerEvent: {}
+[74.782346] (-) TimerEvent: {}
+[74.888351] (-) TimerEvent: {}
+[74.989830] (-) TimerEvent: {}
+[75.093352] (-) TimerEvent: {}
+[75.197444] (-) TimerEvent: {}
+[75.307396] (-) TimerEvent: {}
+[75.416467] (-) TimerEvent: {}
+[75.521440] (-) TimerEvent: {}
+[75.629368] (-) TimerEvent: {}
+[75.734459] (-) TimerEvent: {}
+[75.840054] (-) TimerEvent: {}
+[75.953423] (-) TimerEvent: {}
+[76.057357] (-) TimerEvent: {}
+[76.158926] (-) TimerEvent: {}
+[76.268423] (-) TimerEvent: {}
+[76.375377] (-) TimerEvent: {}
+[76.476507] (-) TimerEvent: {}
+[76.586414] (-) TimerEvent: {}
+[76.690360] (-) TimerEvent: {}
+[76.803371] (-) TimerEvent: {}
+[76.920365] (-) TimerEvent: {}
+[77.032343] (-) TimerEvent: {}
+[77.141374] (-) TimerEvent: {}
+[77.245736] (-) TimerEvent: {}
+[77.358363] (-) TimerEvent: {}
+[77.459510] (-) TimerEvent: {}
+[77.504682] (erp_mini_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/erp_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erp_mini_msgs/srv/detail/dds_fastrtps/mode_command__type_support.cpp.o\x1b[0m\n'}
+[77.561473] (-) TimerEvent: {}
+[77.672327] (-) TimerEvent: {}
+[77.773358] (-) TimerEvent: {}
+[77.880741] (-) TimerEvent: {}
+[77.988000] (-) TimerEvent: {}
+[78.099338] (-) TimerEvent: {}
+[78.200688] (-) TimerEvent: {}
+[78.314352] (-) TimerEvent: {}
+[78.419364] (-) TimerEvent: {}
+[78.526357] (-) TimerEvent: {}
+[78.638380] (-) TimerEvent: {}
+[78.746481] (-) TimerEvent: {}
+[78.850426] (-) TimerEvent: {}
+[78.960419] (-) TimerEvent: {}
+[79.067348] (-) TimerEvent: {}
+[79.174054] (-) TimerEvent: {}
+[79.286721] (-) TimerEvent: {}
+[79.396558] (-) TimerEvent: {}
+[79.504011] (-) TimerEvent: {}
+[79.625361] (-) TimerEvent: {}
+[79.737350] (-) TimerEvent: {}
+[79.844387] (-) TimerEvent: {}
+[79.955442] (-) TimerEvent: {}
+[80.061244] (-) TimerEvent: {}
+[80.165816] (-) TimerEvent: {}
+[80.278425] (-) TimerEvent: {}
+[80.394383] (-) TimerEvent: {}
+[80.499415] (-) TimerEvent: {}
+[80.612363] (-) TimerEvent: {}
+[80.722176] (-) TimerEvent: {}
+[80.828327] (-) TimerEvent: {}
+[80.935368] (-) TimerEvent: {}
+[81.041331] (-) TimerEvent: {}
+[81.148465] (-) TimerEvent: {}
+[81.250989] (-) TimerEvent: {}
+[81.360333] (-) TimerEvent: {}
+[81.466807] (-) TimerEvent: {}
+[81.589407] (-) TimerEvent: {}
+[81.693277] (-) TimerEvent: {}
+[81.805567] (-) TimerEvent: {}
+[81.911428] (-) TimerEvent: {}
+[82.022469] (-) TimerEvent: {}
+[82.140373] (-) TimerEvent: {}
+[82.244378] (-) TimerEvent: {}
+[82.356368] (-) TimerEvent: {}
+[82.470359] (-) TimerEvent: {}
+[82.573461] (-) TimerEvent: {}
+[82.684366] (-) TimerEvent: {}
+[82.790361] (-) TimerEvent: {}
+[82.897428] (-) TimerEvent: {}
+[83.005351] (-) TimerEvent: {}
+[83.112343] (-) TimerEvent: {}
+[83.218347] (-) TimerEvent: {}
+[83.322441] (-) TimerEvent: {}
+[83.439382] (-) TimerEvent: {}
+[83.548650] (-) TimerEvent: {}
+[83.662396] (-) TimerEvent: {}
+[83.772400] (-) TimerEvent: {}
+[83.881618] (-) TimerEvent: {}
+[83.988355] (-) TimerEvent: {}
+[84.095330] (-) TimerEvent: {}
+[84.206625] (-) TimerEvent: {}
+[84.324344] (-) TimerEvent: {}
+[84.433400] (-) TimerEvent: {}
+[84.544339] (-) TimerEvent: {}
+[84.655360] (-) TimerEvent: {}
+[84.759329] (-) TimerEvent: {}
+[84.869716] (-) TimerEvent: {}
+[84.976364] (-) TimerEvent: {}
+[85.079443] (-) TimerEvent: {}
+[85.191460] (-) TimerEvent: {}
+[85.297348] (-) TimerEvent: {}
+[85.398581] (-) TimerEvent: {}
+[85.506350] (-) TimerEvent: {}
+[85.618374] (-) TimerEvent: {}
+[85.722340] (-) TimerEvent: {}
+[85.833357] (-) TimerEvent: {}
+[85.937334] (-) TimerEvent: {}
+[86.043327] (-) TimerEvent: {}
+[86.146340] (-) TimerEvent: {}
+[86.249482] (-) TimerEvent: {}
+[86.356450] (-) TimerEvent: {}
+[86.473107] (-) TimerEvent: {}
+[86.580352] (-) TimerEvent: {}
+[86.684922] (-) TimerEvent: {}
+[86.804352] (-) TimerEvent: {}
+[86.913361] (-) TimerEvent: {}
+[87.019410] (-) TimerEvent: {}
+[87.129385] (-) TimerEvent: {}
+[87.235365] (-) TimerEvent: {}
+[87.336495] (-) TimerEvent: {}
+[87.441356] (-) TimerEvent: {}
+[87.548530] (-) TimerEvent: {}
+[87.654360] (-) TimerEvent: {}
+[87.761350] (-) TimerEvent: {}
+[87.870343] (-) TimerEvent: {}
+[87.974347] (-) TimerEvent: {}
+[88.081347] (-) TimerEvent: {}
+[88.188371] (-) TimerEvent: {}
+[88.289655] (-) TimerEvent: {}
+[88.399416] (-) TimerEvent: {}
+[88.507336] (-) TimerEvent: {}
+[88.609377] (-) TimerEvent: {}
+[88.711081] (-) TimerEvent: {}
+[88.797525] (erp_mini_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library liberp_mini_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[88.815461] (-) TimerEvent: {}
+[88.944657] (sllidar_ros2) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[88.946039] (-) TimerEvent: {}
+[88.963774] (sllidar_ros2) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[88.977010] (sllidar_ros2) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[88.977845] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_composition.dir/build.make:76: CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[88.989503] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/rplidar_composition.dir/all] Interrupt\n'}
+[88.994744] (sllidar_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sllidar_client.dir/all] Error 2\n'}
+[89.006317] (sllidar_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sllidar_node.dir/build.make:76: CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o] Interrupt\n'}
+[89.006874] (usb_cam) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[89.007324] (usb_cam) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[89.007704] (usb_cam) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[89.008089] (usb_cam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/usb_cam.dir/all] Error 2\n'}
+[89.018837] (usb_cam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[89.019420] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[89.019880] (sllidar_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sllidar_node.dir/all] Interrupt\n'}
+[89.038705] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Interrupt\n'}
+[89.039319] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_client.dir/build.make:76: CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o] Interrupt\n'}
+[89.039779] (erp_mini_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/erp_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:197: liberp_mini_msgs__rosidl_typesupport_fastrtps_cpp.so] Interrupt\n'}
+[89.049529] (-) TimerEvent: {}
+[89.053488] (sllidar_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[89.054356] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rplidar_client.dir/all] Interrupt\n'}
+[89.066931] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[89.067679] (erp_mini_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/erp_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[89.100457] (erp_mini_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[89.101287] (erp_mini_msgs) CommandEnded: {'returncode': -2}
+[89.159044] (-) TimerEvent: {}
+[89.214060] (erp_mini_msgs) JobEnded: {'identifier': 'erp_mini_msgs', 'rc': 'SIGINT'}
+[89.226346] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 'SIGINT'}
+[89.264388] (-) TimerEvent: {}
+[89.369355] (-) TimerEvent: {}
+[89.423348] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 'SIGINT'}
+[89.469594] (-) TimerEvent: {}
+[89.472951] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[89.487747] (vehicle_control) JobSkipped: {'identifier': 'vehicle_control'}
+[89.487996] (vehicle_launch) JobSkipped: {'identifier': 'vehicle_launch'}
+[89.488126] (erp_mini_rqt_plugin) JobSkipped: {'identifier': 'erp_mini_rqt_plugin'}
+[89.490250] (erp_mini_serial) JobSkipped: {'identifier': 'erp_mini_serial'}
+[89.490412] (-) EventReactorShutdown: {}

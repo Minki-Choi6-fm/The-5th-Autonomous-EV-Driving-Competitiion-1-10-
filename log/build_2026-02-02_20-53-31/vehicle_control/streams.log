@@ -1,0 +1,22 @@
+[4.106s] Invoking command in '/home/fmp/Jeju_Island/src/vehicle_control': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_control build --build-base /home/fmp/Jeju_Island/build/vehicle_control/build install --record /home/fmp/Jeju_Island/build/vehicle_control/install.log --single-version-externally-managed install_data
+[6.201s] running egg_info
+[6.205s] writing ../../build/vehicle_control/vehicle_control.egg-info/PKG-INFO
+[6.211s] writing dependency_links to ../../build/vehicle_control/vehicle_control.egg-info/dependency_links.txt
+[6.212s] writing entry points to ../../build/vehicle_control/vehicle_control.egg-info/entry_points.txt
+[6.216s] writing requirements to ../../build/vehicle_control/vehicle_control.egg-info/requires.txt
+[6.217s] writing top-level names to ../../build/vehicle_control/vehicle_control.egg-info/top_level.txt
+[6.237s] reading manifest file '../../build/vehicle_control/vehicle_control.egg-info/SOURCES.txt'
+[6.246s] writing manifest file '../../build/vehicle_control/vehicle_control.egg-info/SOURCES.txt'
+[6.247s] running build
+[6.248s] running build_py
+[6.251s] running install
+[6.255s] running install_lib
+[6.270s] running install_data
+[6.272s] running install_egg_info
+[6.289s] removing '/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.291s] Copying ../../build/vehicle_control/vehicle_control.egg-info to /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle_control-0.0.0-py3.10.egg-info
+[6.296s] running install_scripts
+[6.391s] Installing motor_driver script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+[6.395s] Installing path_follower script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+[6.397s] writing list of installed files to '/home/fmp/Jeju_Island/build/vehicle_control/install.log'
+[6.535s] Invoked command in '/home/fmp/Jeju_Island/src/vehicle_control' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_control build --build-base /home/fmp/Jeju_Island/build/vehicle_control/build install --record /home/fmp/Jeju_Island/build/vehicle_control/install.log --single-version-externally-managed install_data

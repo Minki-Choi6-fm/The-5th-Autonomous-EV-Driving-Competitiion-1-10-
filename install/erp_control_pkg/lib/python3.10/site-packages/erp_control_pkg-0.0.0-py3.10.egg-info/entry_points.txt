@@ -1,0 +1,3 @@
+[console_scripts]
+control_node = erp_control_pkg.control_node:main
+

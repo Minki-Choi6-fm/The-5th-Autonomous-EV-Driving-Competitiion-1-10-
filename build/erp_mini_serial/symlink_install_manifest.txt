@@ -26,4 +26,5 @@
 /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/cmake/erp_mini_serialConfig-version.cmake
 /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.xml
 /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/config/serial_bridge.param.yaml
+/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/config/serial_bridge.param.yaml_20250202
 /home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/launch/serial_bridge.launch.py
