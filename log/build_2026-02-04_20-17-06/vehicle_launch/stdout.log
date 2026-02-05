@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing vehicle_launch.egg-info/PKG-INFO
+writing dependency_links to vehicle_launch.egg-info/dependency_links.txt
+writing entry points to vehicle_launch.egg-info/entry_points.txt
+writing requirements to vehicle_launch.egg-info/requires.txt
+writing top-level names to vehicle_launch.egg-info/top_level.txt
+reading manifest file 'vehicle_launch.egg-info/SOURCES.txt'
+writing manifest file 'vehicle_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages/vehicle-launch.egg-link (link to .)
+
+Installed /home/fmp/Jeju_Island/build/vehicle_launch
+running symlink_data

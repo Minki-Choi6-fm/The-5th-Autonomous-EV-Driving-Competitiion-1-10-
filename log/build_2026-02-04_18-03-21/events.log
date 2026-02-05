@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (-) JobUnselected: {'identifier': 'erp_mini_cmake'}
+[0.000606] (-) JobUnselected: {'identifier': 'erp_mini_msgs'}
+[0.000638] (-) JobUnselected: {'identifier': 'erp_mini_rqt_plugin'}
+[0.000667] (-) JobUnselected: {'identifier': 'erp_mini_serial'}
+[0.000694] (-) JobUnselected: {'identifier': 'erp_mini_util'}
+[0.000721] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000748] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000775] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.000801] (-) JobUnselected: {'identifier': 'vehicle_launch'}
+[0.000830] (vehicle_control) JobQueued: {'identifier': 'vehicle_control', 'dependencies': OrderedDict()}
+[0.000862] (vehicle_control) JobStarted: {'identifier': 'vehicle_control'}
+[0.099257] (-) TimerEvent: {}
+[0.199709] (-) TimerEvent: {}
+[0.300117] (-) TimerEvent: {}
+[0.400667] (-) TimerEvent: {}
+[0.500942] (-) TimerEvent: {}
+[0.601388] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802189] (-) TimerEvent: {}
+[0.902521] (-) TimerEvent: {}
+[1.002857] (-) TimerEvent: {}
+[1.103259] (-) TimerEvent: {}
+[1.203299] (vehicle_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/fmp/Jeju_Island/build/vehicle_control/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/fmp/Jeju_Island/build/vehicle_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fmp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fmp', 'OLDPWD': '/home/fmp', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/fmp/.nvm/versions/node/v24.13.0/bin', 'NVM_INC': '/home/fmp/.nvm/versions/node/v24.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '655', 'SYSTEMD_EXEC_PID': '1124', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2147', 'NVM_DIR': '/home/fmp/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fmp/Jeju_Island/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fmp', 'JOURNAL_STREAM': '8:9750', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fmp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/762,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/762', 'INVOCATION_ID': '4b04c7ad3c5b4db99b0d7627526be067', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.84YLK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:78a09188-853a-4552-b235-69852ad3a635', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fmp/Jeju_Island/build/vehicle_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fmp/Jeju_Island/build/vehicle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake'}, 'shell': False}
+[1.204296] (-) TimerEvent: {}
+[1.304805] (-) TimerEvent: {}
+[1.405260] (-) TimerEvent: {}
+[1.505700] (-) TimerEvent: {}
+[1.606187] (-) TimerEvent: {}
+[1.706586] (-) TimerEvent: {}
+[1.794438] (vehicle_control) StdoutLine: {'line': b'running develop\n'}
+[1.806703] (-) TimerEvent: {}
+[1.906991] (-) TimerEvent: {}
+[2.007278] (-) TimerEvent: {}
+[2.091647] (vehicle_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.092625] (vehicle_control) StdoutLine: {'line': b'writing vehicle_control.egg-info/PKG-INFO\n'}
+[2.098721] (vehicle_control) StdoutLine: {'line': b'writing dependency_links to vehicle_control.egg-info/dependency_links.txt\n'}
+[2.099185] (vehicle_control) StdoutLine: {'line': b'writing entry points to vehicle_control.egg-info/entry_points.txt\n'}
+[2.099670] (vehicle_control) StdoutLine: {'line': b'writing requirements to vehicle_control.egg-info/requires.txt\n'}
+[2.099998] (vehicle_control) StdoutLine: {'line': b'writing top-level names to vehicle_control.egg-info/top_level.txt\n'}
+[2.107446] (-) TimerEvent: {}
+[2.111047] (vehicle_control) StdoutLine: {'line': b"reading manifest file 'vehicle_control.egg-info/SOURCES.txt'\n"}
+[2.115397] (vehicle_control) StdoutLine: {'line': b"writing manifest file 'vehicle_control.egg-info/SOURCES.txt'\n"}
+[2.121051] (vehicle_control) StdoutLine: {'line': b'running build_ext\n'}
+[2.122012] (vehicle_control) StdoutLine: {'line': b'Creating /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle-control.egg-link (link to .)\n'}
+[2.125430] (vehicle_control) StdoutLine: {'line': b'Installing motor_driver script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control\n'}
+[2.126231] (vehicle_control) StdoutLine: {'line': b'Installing path_follower script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control\n'}
+[2.126846] (vehicle_control) StdoutLine: {'line': b'Installing pid_controller script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control\n'}
+[2.127690] (vehicle_control) StdoutLine: {'line': b'\n'}
+[2.127988] (vehicle_control) StdoutLine: {'line': b'Installed /home/fmp/Jeju_Island/build/vehicle_control\n'}
+[2.128230] (vehicle_control) StdoutLine: {'line': b'running symlink_data\n'}
+[2.128634] (vehicle_control) StdoutLine: {'line': b'symbolically linking /home/fmp/Jeju_Island/build/vehicle_control/resource/vehicle_control -> /home/fmp/Jeju_Island/install/vehicle_control/share/ament_index/resource_index/packages\n'}
+[2.129030] (vehicle_control) StdoutLine: {'line': b'symbolically linking /home/fmp/Jeju_Island/build/vehicle_control/package.xml -> /home/fmp/Jeju_Island/install/vehicle_control/share/vehicle_control\n'}
+[2.207653] (-) TimerEvent: {}
+[2.217168] (vehicle_control) CommandEnded: {'returncode': 0}
+[2.251864] (vehicle_control) JobEnded: {'identifier': 'vehicle_control', 'rc': 0}
+[2.253073] (-) EventReactorShutdown: {}

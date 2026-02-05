@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing vehicle_control.egg-info/PKG-INFO
+writing dependency_links to vehicle_control.egg-info/dependency_links.txt
+writing entry points to vehicle_control.egg-info/entry_points.txt
+writing requirements to vehicle_control.egg-info/requires.txt
+writing top-level names to vehicle_control.egg-info/top_level.txt
+reading manifest file 'vehicle_control.egg-info/SOURCES.txt'
+writing manifest file 'vehicle_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle-control.egg-link (link to .)
+Installing motor_driver script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+Installing path_follower script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+Installing pid_controller script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+
+Installed /home/fmp/Jeju_Island/build/vehicle_control
+running symlink_data
+symbolically linking /home/fmp/Jeju_Island/build/vehicle_control/resource/vehicle_control -> /home/fmp/Jeju_Island/install/vehicle_control/share/ament_index/resource_index/packages
+symbolically linking /home/fmp/Jeju_Island/build/vehicle_control/package.xml -> /home/fmp/Jeju_Island/install/vehicle_control/share/vehicle_control

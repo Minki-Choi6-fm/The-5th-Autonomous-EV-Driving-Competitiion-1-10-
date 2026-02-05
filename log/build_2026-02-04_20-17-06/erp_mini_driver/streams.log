@@ -1,0 +1,18 @@
+[9.093s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_driver': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data
+[13.000s] running develop
+[14.459s] running egg_info
+[14.464s] writing erp_mini_driver.egg-info/PKG-INFO
+[14.469s] writing dependency_links to erp_mini_driver.egg-info/dependency_links.txt
+[14.470s] writing entry points to erp_mini_driver.egg-info/entry_points.txt
+[14.470s] writing requirements to erp_mini_driver.egg-info/requires.txt
+[14.471s] writing top-level names to erp_mini_driver.egg-info/top_level.txt
+[14.481s] reading manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+[14.484s] writing manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+[14.495s] running build_ext
+[14.497s] Creating /home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages/erp-mini-driver.egg-link (link to .)
+[14.504s] Installing drive_controller script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+[14.505s] Installing driver_node script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+[14.506s] 
+[14.506s] Installed /home/fmp/Jeju_Island/build/erp_mini_driver
+[14.511s] running symlink_data
+[14.715s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_driver' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data

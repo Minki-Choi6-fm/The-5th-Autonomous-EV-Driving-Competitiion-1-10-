@@ -1,0 +1,25 @@
+[7.319s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_driver': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data
+[10.586s] running develop
+[13.623s] running egg_info
+[13.624s] creating erp_mini_driver.egg-info
+[13.624s] writing erp_mini_driver.egg-info/PKG-INFO
+[13.638s] writing dependency_links to erp_mini_driver.egg-info/dependency_links.txt
+[13.639s] writing entry points to erp_mini_driver.egg-info/entry_points.txt
+[13.639s] writing requirements to erp_mini_driver.egg-info/requires.txt
+[13.640s] writing top-level names to erp_mini_driver.egg-info/top_level.txt
+[13.640s] writing manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+[13.662s] reading manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+[13.664s] writing manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+[13.689s] running build_ext
+[13.695s] Creating /home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages/erp-mini-driver.egg-link (link to .)
+[13.703s] Installing drive_controller script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+[13.704s] Installing driver_node script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+[13.714s] 
+[13.715s] Installed /home/fmp/Jeju_Island/build/erp_mini_driver
+[13.716s] running symlink_data
+[13.723s] creating /home/fmp/Jeju_Island/install/erp_mini_driver/share/ament_index
+[13.726s] creating /home/fmp/Jeju_Island/install/erp_mini_driver/share/ament_index/resource_index
+[13.733s] creating /home/fmp/Jeju_Island/install/erp_mini_driver/share/ament_index/resource_index/packages
+[13.734s] symbolically linking /home/fmp/Jeju_Island/build/erp_mini_driver/resource/erp_mini_driver -> /home/fmp/Jeju_Island/install/erp_mini_driver/share/ament_index/resource_index/packages
+[13.741s] symbolically linking /home/fmp/Jeju_Island/build/erp_mini_driver/package.xml -> /home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver
+[14.507s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_driver' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data

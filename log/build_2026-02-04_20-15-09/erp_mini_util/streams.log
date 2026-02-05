@@ -1,0 +1,38 @@
+[0.126s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_util': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/erp_mini_util
+[0.321s] -- Found erp_mini_cmake: 0.0.0 (/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/cmake)
+[0.321s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.712s] -- Configuring done
+[3.787s] -- Generating done
+[3.849s] -- Build files have been written to: /home/fmp/Jeju_Island/build/erp_mini_util
+[3.920s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_util' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/erp_mini_util
+[3.929s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_util': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_util -- -j4 -l4
+[4.365s] [35m[1mConsolidate compiler generated dependencies of target erp_mini_util[0m
+[4.648s] [100%] Built target erp_mini_util
+[4.754s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_util' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_util -- -j4 -l4
+[4.772s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_util': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_util
+[4.894s] -- Install configuration: ""
+[4.906s] -- Execute custom install script
+[4.914s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/include/erp_mini_util/erp_mini_util/exception.hpp
+[4.917s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/include/erp_mini_util/erp_mini_util/log.hpp
+[4.919s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/library_path.sh
+[4.929s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/library_path.dsv
+[4.930s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/lib/liberp_mini_util.so
+[4.931s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/ament_index/resource_index/package_run_dependencies/erp_mini_util
+[4.938s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/ament_index/resource_index/parent_prefix_path/erp_mini_util
+[4.950s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/ament_prefix_path.sh
+[4.955s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/ament_prefix_path.dsv
+[4.957s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/path.sh
+[4.959s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/environment/path.dsv
+[4.975s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/local_setup.bash
+[4.995s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/local_setup.sh
+[4.997s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/local_setup.zsh
+[5.004s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/local_setup.dsv
+[5.014s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.dsv
+[5.137s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/ament_index/resource_index/packages/erp_mini_util
+[5.154s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.155s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/cmake/ament_cmake_export_libraries-extras.cmake
+[5.158s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/cmake/erp_mini_utilConfig.cmake
+[5.160s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/cmake/erp_mini_utilConfig-version.cmake
+[5.163s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.xml
+[5.189s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_util' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_util

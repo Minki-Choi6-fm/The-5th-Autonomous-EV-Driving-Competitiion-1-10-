@@ -1,0 +1,4 @@
+[console_scripts]
+drive_controller = erp_mini_driver.drive_controller:main
+driver_node = erp_mini_driver.driver_node:main
+

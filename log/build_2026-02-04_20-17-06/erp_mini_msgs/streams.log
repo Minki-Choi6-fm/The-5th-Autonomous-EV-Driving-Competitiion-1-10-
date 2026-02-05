@@ -1,0 +1,158 @@
+[0.168s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_msgs -- -j4 -l4
+[2.307s] [  2%] Built target erp_mini_msgs__cpp
+[2.310s] [  2%] Built target ament_cmake_python_symlink_erp_mini_msgs
+[2.311s] [ 12%] Built target erp_mini_msgs__rosidl_typesupport_fastrtps_cpp
+[2.312s] [ 23%] Built target erp_mini_msgs__rosidl_typesupport_introspection_cpp
+[3.883s] running egg_info
+[3.897s] writing erp_mini_msgs.egg-info/PKG-INFO
+[3.898s] writing dependency_links to erp_mini_msgs.egg-info/dependency_links.txt
+[3.898s] writing top-level names to erp_mini_msgs.egg-info/top_level.txt
+[3.938s] reading manifest file 'erp_mini_msgs.egg-info/SOURCES.txt'
+[3.939s] writing manifest file 'erp_mini_msgs.egg-info/SOURCES.txt'
+[4.260s] [ 23%] Built target ament_cmake_python_build_erp_mini_msgs_egg
+[4.570s] [ 34%] Built target erp_mini_msgs__rosidl_typesupport_cpp
+[4.881s] [ 44%] Built target erp_mini_msgs__rosidl_generator_c
+[5.157s] [ 55%] Built target erp_mini_msgs__rosidl_typesupport_fastrtps_c
+[5.462s] [ 65%] Built target erp_mini_msgs__rosidl_typesupport_c
+[5.777s] [ 76%] Built target erp_mini_msgs__rosidl_typesupport_introspection_c
+[5.975s] [ 76%] Built target erp_mini_msgs
+[6.171s] [ 78%] Built target erp_mini_msgs__py
+[6.451s] [ 87%] Built target erp_mini_msgs__rosidl_generator_py
+[6.843s] [ 91%] Built target erp_mini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.147s] [ 95%] Built target erp_mini_msgs__rosidl_typesupport_c__pyext
+[7.344s] [100%] Built target erp_mini_msgs__rosidl_typesupport_introspection_c__pyext
+[9.161s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_msgs -- -j4 -l4
+[9.185s] Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_msgs
+[9.449s] -- Install configuration: ""
+[9.475s] -- Execute custom install script
+[9.496s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/ament_index/resource_index/rosidl_interfaces/erp_mini_msgs
+[9.523s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/control_command.h
+[9.524s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__functions.h
+[9.529s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__struct.h
+[9.530s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__type_support.h
+[9.537s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__functions.h
+[9.538s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__struct.h
+[9.545s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__type_support.h
+[9.551s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/feedback.h
+[9.560s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.565s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__functions.h
+[9.573s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__struct.h
+[9.583s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__type_support.h
+[9.587s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/mode_command.h
+[9.591s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/library_path.sh
+[9.592s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/library_path.dsv
+[9.593s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_c.h
+[9.597s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[9.598s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.599s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__rosidl_typesupport_fastrtps_c.h
+[9.603s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/control_command.hpp
+[9.604s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__builder.hpp
+[9.605s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__struct.hpp
+[9.609s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__traits.hpp
+[9.610s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__type_support.hpp
+[9.611s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__builder.hpp
+[9.621s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__struct.hpp
+[9.622s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__traits.hpp
+[9.623s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__type_support.hpp
+[9.623s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/feedback.hpp
+[9.624s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.624s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__builder.hpp
+[9.628s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__struct.hpp
+[9.629s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__traits.hpp
+[9.629s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__type_support.hpp
+[9.629s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/mode_command.hpp
+[9.630s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.648s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[9.649s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.649s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.650s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__rosidl_typesupport_introspection_c.h
+[9.651s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[9.651s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.658s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__rosidl_typesupport_introspection_c.h
+[9.658s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/control_command__rosidl_typesupport_introspection_cpp.hpp
+[9.659s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[9.660s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/include/erp_mini_msgs/erp_mini_msgs/srv/detail/mode_command__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/pythonpath.sh
+[9.678s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/pythonpath.dsv
+[9.680s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.682s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.688s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.689s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.697s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/__init__.py
+[9.704s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/_erp_mini_msgs_s.ep.rosidl_typesupport_c.c
+[9.706s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/_erp_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.718s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/_erp_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.721s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.725s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.726s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.733s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/liberp_mini_msgs__rosidl_generator_py.so
+[9.733s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg/__init__.py
+[9.734s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg/_control_command.py
+[9.734s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg/_control_command_s.c
+[9.735s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg/_feedback.py
+[9.736s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg/_feedback_s.c
+[9.739s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/srv/__init__.py
+[9.745s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/srv/_mode_command.py
+[9.746s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/srv/_mode_command_s.c
+[9.752s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.773s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.782s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/erp_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.783s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/msg/ControlCommand.idl
+[9.787s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/msg/Feedback.idl
+[9.788s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/srv/ModeCommand.idl
+[9.789s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/msg/ControlCommand.msg
+[9.789s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/msg/Feedback.msg
+[9.793s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/srv/ModeCommand.srv
+[9.793s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/srv/ModeCommand_Request.msg
+[9.794s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/srv/ModeCommand_Response.msg
+[9.794s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/ament_index/resource_index/package_run_dependencies/erp_mini_msgs
+[9.795s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/ament_index/resource_index/parent_prefix_path/erp_mini_msgs
+[9.799s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/ament_prefix_path.sh
+[9.801s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/ament_prefix_path.dsv
+[9.802s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/path.sh
+[9.807s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/environment/path.dsv
+[9.808s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/local_setup.bash
+[9.825s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/local_setup.sh
+[9.830s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/local_setup.zsh
+[9.831s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/local_setup.dsv
+[9.833s] -- Symlinking: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.dsv
+[9.847s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/ament_index/resource_index/packages/erp_mini_msgs
+[9.865s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/rosidl_cmake-extras.cmake
+[9.867s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.875s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.889s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.892s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.896s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.897s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.903s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgsConfig.cmake
+[9.913s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgsConfig-version.cmake
+[9.913s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.xml
+[9.917s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_generator_c.so
+[9.917s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_fastrtps_c.so
+[9.918s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.918s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_introspection_c.so
+[9.918s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_c.so
+[9.919s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_introspection_cpp.so
+[9.925s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_typesupport_cpp.so
+[10.303s] Listing '/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs'...
+[10.304s] Listing '/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/msg'...
+[10.305s] Listing '/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages/erp_mini_msgs/srv'...
+[10.334s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/lib/liberp_mini_msgs__rosidl_generator_py.so
+[10.338s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_generator_cExport.cmake
+[10.341s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.345s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.346s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.350s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_generator_cppExport.cmake
+[10.350s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.353s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.356s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.357s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.360s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_cExport.cmake
+[10.361s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.363s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.365s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.367s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_cppExport.cmake
+[10.368s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/erp_mini_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.370s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_generator_pyExport.cmake
+[10.372s] -- Up-to-date: /home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/cmake/export_erp_mini_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.390s] Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_msgs

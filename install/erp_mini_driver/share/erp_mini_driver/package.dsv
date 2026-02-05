@@ -1,0 +1,9 @@
+source;share/erp_mini_driver/hook/pythonpath.ps1
+source;share/erp_mini_driver/hook/pythonpath.dsv
+source;share/erp_mini_driver/hook/pythonpath.sh
+source;share/erp_mini_driver/hook/ament_prefix_path.ps1
+source;share/erp_mini_driver/hook/ament_prefix_path.dsv
+source;share/erp_mini_driver/hook/ament_prefix_path.sh
+source;../../build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.ps1
+source;../../build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.dsv
+source;../../build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.sh

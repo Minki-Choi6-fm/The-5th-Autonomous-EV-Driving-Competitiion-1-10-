@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000445] (-) JobUnselected: {'identifier': 'erp_mini_cmake'}
+[0.000501] (-) JobUnselected: {'identifier': 'erp_mini_msgs'}
+[0.000542] (-) JobUnselected: {'identifier': 'erp_mini_rqt_plugin'}
+[0.000578] (-) JobUnselected: {'identifier': 'erp_mini_serial'}
+[0.000613] (-) JobUnselected: {'identifier': 'erp_mini_util'}
+[0.000647] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000681] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000715] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.000748] (-) JobUnselected: {'identifier': 'vehicle_launch'}
+[0.000786] (erp_mini_driver) JobQueued: {'identifier': 'erp_mini_driver', 'dependencies': OrderedDict()}
+[0.001188] (erp_mini_driver) JobStarted: {'identifier': 'erp_mini_driver'}
+[0.099652] (-) TimerEvent: {}
+[0.200333] (-) TimerEvent: {}
+[0.303338] (-) TimerEvent: {}
+[0.404149] (-) TimerEvent: {}
+[0.505264] (-) TimerEvent: {}
+[0.608127] (-) TimerEvent: {}
+[0.708918] (-) TimerEvent: {}
+[0.812121] (-) TimerEvent: {}
+[0.912832] (-) TimerEvent: {}
+[1.013725] (-) TimerEvent: {}
+[1.116812] (-) TimerEvent: {}
+[1.217632] (-) TimerEvent: {}
+[1.319283] (-) TimerEvent: {}
+[1.423592] (-) TimerEvent: {}
+[1.524664] (-) TimerEvent: {}
+[1.627148] (-) TimerEvent: {}
+[1.728104] (-) TimerEvent: {}
+[1.828901] (-) TimerEvent: {}
+[1.929556] (-) TimerEvent: {}
+[2.030130] (-) TimerEvent: {}
+[2.130809] (-) TimerEvent: {}
+[2.234142] (-) TimerEvent: {}
+[2.335000] (-) TimerEvent: {}
+[2.435899] (-) TimerEvent: {}
+[2.536704] (-) TimerEvent: {}
+[2.599361] (erp_mini_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/fmp/Jeju_Island/build/erp_mini_driver/build', '--no-deps', 'symlink_data'], 'cwd': '/home/fmp/Jeju_Island/build/erp_mini_driver', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fmp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fmp', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/fmp/.nvm/versions/node/v24.13.0/bin', 'NVM_INC': '/home/fmp/.nvm/versions/node/v24.13.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '652', 'SYSTEMD_EXEC_PID': '792', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1558', 'NVM_DIR': '/home/fmp/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fmp/Jeju_Island/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fmp', 'JOURNAL_STREAM': '8:8626', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fmp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/fmp/.nvm/versions/node/v24.13.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fmp-LattePanda-Iota:@/tmp/.ICE-unix/761,unix/fmp-LattePanda-Iota:/tmp/.ICE-unix/761', 'INVOCATION_ID': '3c2f2e2abcef498db563b1e2a8b54bb2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.87SDK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_control_pkg:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:63e7c819-2c91-4f74-9711-c0ffb795d107', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fmp/Jeju_Island/build/erp_mini_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:/home/fmp/Jeju_Island/build/vehicle_launch:/home/fmp/Jeju_Island/build/erp_mini_driver:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages:/home/fmp/Jeju_Island/build/vehicle_control:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_control_pkg/lib/python3.10/site-packages:/home/fmp/Jeju_Island/install/erp_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake'}, 'shell': False}
+[2.639837] (-) TimerEvent: {}
+[2.740711] (-) TimerEvent: {}
+[2.842150] (-) TimerEvent: {}
+[2.943244] (-) TimerEvent: {}
+[3.044191] (-) TimerEvent: {}
+[3.144913] (-) TimerEvent: {}
+[3.245525] (-) TimerEvent: {}
+[3.346156] (-) TimerEvent: {}
+[3.446925] (-) TimerEvent: {}
+[3.547515] (-) TimerEvent: {}
+[3.565112] (erp_mini_driver) StdoutLine: {'line': b'running develop\n'}
+[3.647727] (-) TimerEvent: {}
+[3.748457] (-) TimerEvent: {}
+[3.849006] (-) TimerEvent: {}
+[3.949699] (-) TimerEvent: {}
+[4.050278] (-) TimerEvent: {}
+[4.070629] (erp_mini_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.071176] (erp_mini_driver) StdoutLine: {'line': b'writing erp_mini_driver.egg-info/PKG-INFO\n'}
+[4.073007] (erp_mini_driver) StdoutLine: {'line': b'writing dependency_links to erp_mini_driver.egg-info/dependency_links.txt\n'}
+[4.073469] (erp_mini_driver) StdoutLine: {'line': b'writing entry points to erp_mini_driver.egg-info/entry_points.txt\n'}
+[4.073782] (erp_mini_driver) StdoutLine: {'line': b'writing requirements to erp_mini_driver.egg-info/requires.txt\n'}
+[4.074096] (erp_mini_driver) StdoutLine: {'line': b'writing top-level names to erp_mini_driver.egg-info/top_level.txt\n'}
+[4.077926] (erp_mini_driver) StdoutLine: {'line': b"reading manifest file 'erp_mini_driver.egg-info/SOURCES.txt'\n"}
+[4.079922] (erp_mini_driver) StdoutLine: {'line': b"writing manifest file 'erp_mini_driver.egg-info/SOURCES.txt'\n"}
+[4.083288] (erp_mini_driver) StdoutLine: {'line': b'running build_ext\n'}
+[4.083803] (erp_mini_driver) StdoutLine: {'line': b'Creating /home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages/erp-mini-driver.egg-link (link to .)\n'}
+[4.086210] (erp_mini_driver) StdoutLine: {'line': b'Installing drive_controller script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver\n'}
+[4.089163] (erp_mini_driver) StdoutLine: {'line': b'Installing driver_node script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver\n'}
+[4.089518] (erp_mini_driver) StdoutLine: {'line': b'\n'}
+[4.089672] (erp_mini_driver) StdoutLine: {'line': b'Installed /home/fmp/Jeju_Island/build/erp_mini_driver\n'}
+[4.089804] (erp_mini_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[4.150589] (-) TimerEvent: {}
+[4.205136] (erp_mini_driver) CommandEnded: {'returncode': 0}
+[4.254815] (-) TimerEvent: {}
+[4.267830] (erp_mini_driver) JobEnded: {'identifier': 'erp_mini_driver', 'rc': 0}
+[4.269727] (-) EventReactorShutdown: {}

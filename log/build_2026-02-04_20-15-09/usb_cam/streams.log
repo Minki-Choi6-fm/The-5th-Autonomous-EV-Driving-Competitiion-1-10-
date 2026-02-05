@@ -1,0 +1,97 @@
+[0.181s] Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/usb_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/usb_cam
+[0.526s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.399s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.693s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.740s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.835s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.977s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.416s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.429s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.015s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.211s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.309s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/usb_cam` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[11.490s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.628s] -- Configured cppcheck include dirs: /home/fmp/Jeju_Island/src/usb_cam/include
+[11.629s] -- Configured cppcheck exclude dirs and/or files: 
+[11.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.672s] -- Configured cpplint exclude dirs and/or files: 
+[11.693s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.728s] -- Added test 'lint_cmake' to check CMake code style
+[11.771s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.869s] -- Added test 'uncrustify' to check C / C++ code style
+[11.870s] -- Configured uncrustify additional arguments: 
+[11.885s] -- Added test 'xmllint' to check XML markup files
+[11.947s] -- Configuring done
+[12.677s] -- Generating done
+[12.860s] -- Build files have been written to: /home/fmp/Jeju_Island/build/usb_cam
+[12.983s] Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake /home/fmp/Jeju_Island/src/usb_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fmp/Jeju_Island/install/usb_cam
+[13.006s] Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[13.351s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[13.627s] [ 14%] Built target usb_cam
+[13.757s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[13.917s] [ 28%] Built target gtest
+[14.019s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[14.263s] [ 42%] Built target usb_cam_node
+[14.398s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[14.674s] [ 57%] Built target gtest_main
+[14.967s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[15.314s] [ 71%] Built target usb_cam_node_exe
+[15.573s] [35m[1mConsolidate compiler generated dependencies of target test_pixel_formats[0m
+[15.766s] [ 85%] Built target test_pixel_formats
+[16.000s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[16.265s] [100%] Built target test_usb_cam_utils
+[16.484s] Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[16.575s] Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam
+[16.666s] -- Install configuration: ""
+[16.674s] -- Execute custom install script
+[16.683s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/library_path.sh
+[16.684s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[16.690s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[16.691s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/lib/usb_cam/show_image.py
+[16.692s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/lib/libusb_cam.so
+[16.697s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/lib/libusb_cam_node.so
+[16.707s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/constants.hpp
+[16.710s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/conversions.hpp
+[16.715s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[16.717s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/m420.hpp
+[16.722s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[16.727s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/mono.hpp
+[16.738s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[16.741s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[16.745s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/utils.hpp
+[16.759s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[16.774s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[16.778s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/usb_cam.hpp
+[16.798s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[16.806s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/include/usb_cam/utils.hpp
+[16.814s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/lib/libusb_cam_node.so
+[16.870s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/launch/__init__.py
+[16.882s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/launch/__pycache__/camera_config.cpython-310.pyc
+[16.885s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[16.892s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/launch/camera_config.py
+[16.905s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[16.914s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/config/params_1.yaml
+[16.922s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/config/params_2.yaml
+[16.924s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[16.946s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[16.969s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[16.974s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[16.985s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/path.sh
+[16.991s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/environment/path.dsv
+[17.004s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/local_setup.bash
+[17.008s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/local_setup.sh
+[17.068s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/local_setup.zsh
+[17.075s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/local_setup.dsv
+[17.076s] -- Symlinking: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.dsv
+[17.168s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[17.180s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[17.198s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[17.199s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.215s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.220s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[17.223s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[17.224s] -- Up-to-date symlink: /home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.xml
+[17.280s] Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam

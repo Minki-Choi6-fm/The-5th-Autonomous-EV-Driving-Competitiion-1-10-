@@ -1,0 +1,19 @@
+[10.844s] Invoking command in '/home/fmp/Jeju_Island/build/vehicle_control': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/vehicle_control/build --no-deps symlink_data
+[15.438s] running develop
+[18.801s] running egg_info
+[18.803s] writing vehicle_control.egg-info/PKG-INFO
+[18.804s] writing dependency_links to vehicle_control.egg-info/dependency_links.txt
+[18.809s] writing entry points to vehicle_control.egg-info/entry_points.txt
+[18.819s] writing requirements to vehicle_control.egg-info/requires.txt
+[18.835s] writing top-level names to vehicle_control.egg-info/top_level.txt
+[18.840s] reading manifest file 'vehicle_control.egg-info/SOURCES.txt'
+[18.880s] writing manifest file 'vehicle_control.egg-info/SOURCES.txt'
+[18.894s] running build_ext
+[18.912s] Creating /home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages/vehicle-control.egg-link (link to .)
+[18.916s] Installing motor_driver script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+[18.919s] Installing path_follower script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+[18.919s] Installing pid_controller script to /home/fmp/Jeju_Island/install/vehicle_control/lib/vehicle_control
+[18.922s] 
+[18.922s] Installed /home/fmp/Jeju_Island/build/vehicle_control
+[18.923s] running symlink_data
+[19.497s] Invoked command in '/home/fmp/Jeju_Island/build/vehicle_control' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/vehicle_control/build --no-deps symlink_data

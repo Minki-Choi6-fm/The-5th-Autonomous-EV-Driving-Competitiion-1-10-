@@ -1,4 +1,5 @@
 [console_scripts]
 motor_driver = vehicle_control.motor_driver:main
 path_follower = vehicle_control.path_follower:main
+pid_controller = vehicle_control.pid_controller:main
 

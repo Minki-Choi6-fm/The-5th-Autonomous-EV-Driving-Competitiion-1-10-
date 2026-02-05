@@ -1,0 +1,786 @@
+[0.347s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.347s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77a3fd346ec0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77a3fd44fdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77a3fd44fdf0>>, mixin_verb=('build',))
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.796s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fmp/Jeju_Island'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'ignore'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'ignore_ament_install'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['colcon_pkg']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'ros'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['cmake', 'python']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'cmake'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'python'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extensions ['python_setup_py']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros) by extension 'python_setup_py'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'ros'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['cmake', 'python']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'cmake'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'python'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extensions ['python_setup_py']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/docker) by extension 'python_setup_py'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'ros'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['cmake', 'python']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'cmake'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'python'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extensions ['python_setup_py']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src) by extension 'python_setup_py'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_cmake) by extension 'ros'
+[0.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_cmake' with type 'ros.ament_cmake' and name 'erp_mini_cmake'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_driver) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_driver' with type 'ros.ament_python' and name 'erp_mini_driver'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_msgs) by extension 'ros'
+[0.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_msgs' with type 'ros.ament_cmake' and name 'erp_mini_msgs'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_rqt_plugin) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_rqt_plugin' with type 'ros.ament_cmake' and name 'erp_mini_rqt_plugin'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_serial) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_serial' with type 'ros.ament_cmake' and name 'erp_mini_serial'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extension 'colcon_pkg'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extensions ['colcon_meta']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extension 'colcon_meta'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extensions ['ros']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/erp_mini_ros/src/erp_mini_util) by extension 'ros'
+[0.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erp_mini_ros/src/erp_mini_util' with type 'ros.ament_cmake' and name 'erp_mini_util'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.847s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.854s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extension 'ignore_ament_install'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extensions ['colcon_pkg']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extension 'colcon_pkg'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extensions ['colcon_meta']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extension 'colcon_meta'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extensions ['ros']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_launch) by extension 'ros'
+[0.856s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_launch' with type 'ros.ament_python' and name 'vehicle_launch'
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.929s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/fmp/Jeju_Island/install
+[0.932s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.016s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'erp_mini_msgs' is in: /home/fmp/Jeju_Island/install/erp_mini_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding erp_mini_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_args' from command line to 'None'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_target' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_clean_cache' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_clean_first' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'cmake_force_configure' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'ament_cmake_args' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'catkin_cmake_args' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_cmake' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.019s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_cmake' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_cmake', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_cmake', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_cmake', 'symlink_install': True, 'test_result_base': None}
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_args' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_target' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.020s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_driver', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_driver', 'symlink_install': True, 'test_result_base': None}
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_target' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.022s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_msgs', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.023s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/rplidar_ros', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.024s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/sllidar_ros2', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.026s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/usb_cam', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/usb_cam', 'symlink_install': True, 'test_result_base': None}
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_target' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'vehicle_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/vehicle_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/vehicle_launch', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/vehicle_launch', 'symlink_install': True, 'test_result_base': None}
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_target' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_clean_cache' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_clean_first' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'cmake_force_configure' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'ament_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'catkin_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_util' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.028s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_util' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_util', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_util', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util', 'symlink_install': True, 'test_result_base': None}
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_target' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_rqt_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.030s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_rqt_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin', 'symlink_install': True, 'test_result_base': None}
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_target' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'erp_mini_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.031s] DEBUG:colcon.colcon_core.verb:Building package 'erp_mini_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fmp/Jeju_Island/build/erp_mini_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fmp/Jeju_Island/install/erp_mini_serial', 'merge_install': False, 'path': '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_serial', 'symlink_install': True, 'test_result_base': None}
+[1.031s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.035s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_cmake' with build type 'ament_cmake'
+[1.035s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_cmake'
+[1.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_msgs' with build type 'ament_cmake'
+[1.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_msgs'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_driver' with build type 'ament_python'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_driver', 'ament_prefix_path')
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/ament_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/ament_prefix_path.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/ament_prefix_path.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/rplidar_ros' with build type 'ament_cmake'
+[1.126s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/rplidar_ros'
+[1.127s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_cmake -- -j4 -l4
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_msgs -- -j4 -l4
+[3.309s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_driver'
+[3.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/rplidar_ros -- -j4 -l4
+[3.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_cmake -- -j4 -l4
+[3.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_cmake
+[3.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_cmake)
+[3.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_cmake
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake' for CMake module files
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake' for CMake config files
+[3.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_cmake', 'cmake_prefix_path')
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.dsv'
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.sh'
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/bin'
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/lib/pkgconfig/erp_mini_cmake.pc'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/lib/python3.10/site-packages'
+[3.802s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/bin'
+[3.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.ps1'
+[3.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.dsv'
+[3.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.sh'
+[3.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.bash'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.zsh'
+[3.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_cmake/share/colcon-core/packages/erp_mini_cmake)
+[3.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_cmake)
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake' for CMake module files
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake' for CMake config files
+[3.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_cmake', 'cmake_prefix_path')
+[3.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.ps1'
+[3.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.dsv'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/hook/cmake_prefix_path.sh'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/bin'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/lib/pkgconfig/erp_mini_cmake.pc'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/lib/python3.10/site-packages'
+[3.853s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_cmake/bin'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.ps1'
+[3.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.sh'
+[3.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.bash'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_cmake/share/erp_mini_cmake/package.zsh'
+[3.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_cmake/share/colcon-core/packages/erp_mini_cmake)
+[3.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util' with build type 'ament_cmake'
+[3.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_util'
+[3.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_util': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_util -- -j4 -l4
+[4.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_util' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_util -- -j4 -l4
+[4.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_util': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_util
+[4.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_util)
+[4.831s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util' for CMake module files
+[4.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_util' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_util
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util' for CMake config files
+[4.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_util', 'cmake_prefix_path')
+[4.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.ps1'
+[4.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.dsv'
+[4.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.sh'
+[4.881s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib'
+[4.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_util', 'ld_library_path_lib')
+[4.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.dsv'
+[4.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.sh'
+[4.906s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/bin'
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib/pkgconfig/erp_mini_util.pc'
+[4.911s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib/python3.10/site-packages'
+[4.917s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/bin'
+[4.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.ps1'
+[4.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.dsv'
+[4.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.sh'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.bash'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.zsh'
+[4.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_util/share/colcon-core/packages/erp_mini_util)
+[4.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_util)
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util' for CMake module files
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util' for CMake config files
+[5.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_util', 'cmake_prefix_path')
+[5.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.ps1'
+[5.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.dsv'
+[5.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/cmake_prefix_path.sh'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib'
+[5.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_util', 'ld_library_path_lib')
+[5.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.ps1'
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.dsv'
+[5.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/hook/ld_library_path_lib.sh'
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/bin'
+[5.060s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib/pkgconfig/erp_mini_util.pc'
+[5.063s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/lib/python3.10/site-packages'
+[5.068s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_util/bin'
+[5.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.ps1'
+[5.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.sh'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.bash'
+[5.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_util/share/erp_mini_util/package.zsh'
+[5.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_util/share/colcon-core/packages/erp_mini_util)
+[5.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/sllidar_ros2' with build type 'ament_cmake'
+[5.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/sllidar_ros2'
+[5.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/sllidar_ros2 -- -j4 -l4
+[5.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/rplidar_ros -- -j4 -l4
+[5.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/rplidar_ros
+[5.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake module files
+[5.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/rplidar_ros
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake config files
+[5.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.899s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib'
+[5.903s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[5.903s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.905s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/python3.10/site-packages'
+[5.911s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[5.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.970s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake module files
+[5.981s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros' for CMake config files
+[5.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[6.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib'
+[6.014s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[6.015s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/lib/python3.10/site-packages'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/rplidar_ros/bin'
+[6.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[6.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.sh'
+[6.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.bash'
+[6.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[6.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[6.092s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/usb_cam' with build type 'ament_cmake'
+[6.099s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/usb_cam'
+[6.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[6.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/sllidar_ros2 -- -j4 -l4
+[6.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/sllidar_ros2
+[6.897s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[6.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/sllidar_ros2
+[6.915s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2' for CMake module files
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2' for CMake config files
+[6.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[6.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[6.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[6.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.006s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib'
+[7.006s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/bin'
+[7.013s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.014s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.021s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/bin'
+[7.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[7.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[7.109s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2' for CMake module files
+[7.119s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2' for CMake config files
+[7.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[7.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[7.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.166s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib'
+[7.169s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/bin'
+[7.171s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/sllidar_ros2/bin'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[7.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fmp/Jeju_Island/src/vehicle_launch' with build type 'ament_python'
+[7.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_launch', 'ament_prefix_path')
+[7.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/ament_prefix_path.ps1'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/ament_prefix_path.dsv'
+[7.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/ament_prefix_path.sh'
+[7.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.105s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fmp/Jeju_Island/src/vehicle_launch'
+[10.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_driver': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data
+[10.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/usb_cam -- -j4 -l4
+[10.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam
+[10.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_msgs -- -j4 -l4
+[10.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_msgs
+[10.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[10.740s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake module files
+[10.751s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake config files
+[10.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[10.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[10.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[10.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[10.810s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib'
+[10.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[10.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[10.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[10.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[10.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/usb_cam
+[10.839s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[10.843s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[10.844s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/python3.10/site-packages'
+[10.851s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[10.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.ps1'
+[10.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.dsv'
+[10.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.sh'
+[10.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.bash'
+[10.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.zsh'
+[10.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/usb_cam/share/colcon-core/packages/usb_cam)
+[10.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[11.003s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake module files
+[11.010s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam' for CMake config files
+[11.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[11.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[11.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[11.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib'
+[11.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[11.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[11.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[11.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[11.056s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[11.058s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[11.063s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/lib/python3.10/site-packages'
+[11.072s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/usb_cam/bin'
+[11.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.ps1'
+[11.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.dsv'
+[11.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.sh'
+[11.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.bash'
+[11.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/usb_cam/share/usb_cam/package.zsh'
+[11.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/usb_cam/share/colcon-core/packages/usb_cam)
+[11.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_msgs)
+[11.445s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs' for CMake module files
+[11.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_msgs
+[11.452s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs' for CMake config files
+[11.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_msgs', 'cmake_prefix_path')
+[11.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.ps1'
+[11.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.dsv'
+[11.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.sh'
+[11.469s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib'
+[11.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_msgs', 'ld_library_path_lib')
+[11.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.ps1'
+[11.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.dsv'
+[11.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.sh'
+[11.484s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/bin'
+[11.485s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib/pkgconfig/erp_mini_msgs.pc'
+[11.486s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib/python3.10/site-packages'
+[11.488s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/bin'
+[11.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.ps1'
+[11.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.dsv'
+[11.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.sh'
+[11.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.bash'
+[11.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.zsh'
+[11.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_msgs/share/colcon-core/packages/erp_mini_msgs)
+[11.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_msgs)
+[11.524s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs' for CMake module files
+[11.533s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs' for CMake config files
+[11.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_msgs', 'cmake_prefix_path')
+[11.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.ps1'
+[11.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.dsv'
+[11.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/cmake_prefix_path.sh'
+[11.552s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib'
+[11.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_msgs', 'ld_library_path_lib')
+[11.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.ps1'
+[11.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.dsv'
+[11.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/hook/ld_library_path_lib.sh'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/bin'
+[11.563s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib/pkgconfig/erp_mini_msgs.pc'
+[11.564s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/lib/python3.10/site-packages'
+[11.567s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_msgs/bin'
+[11.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.ps1'
+[11.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.dsv'
+[11.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.sh'
+[11.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.bash'
+[11.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_msgs/share/erp_mini_msgs/package.zsh'
+[11.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_msgs/share/colcon-core/packages/erp_mini_msgs)
+[11.607s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin' with build type 'ament_cmake'
+[11.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_rqt_plugin'
+[11.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_serial' with build type 'ament_cmake'
+[11.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fmp/Jeju_Island/src/erp_mini_ros/src/erp_mini_serial'
+[11.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin -- -j4 -l4
+[11.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_serial': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_serial -- -j4 -l4
+[12.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin -- -j4 -l4
+[12.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin
+[13.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_rqt_plugin)
+[13.090s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin' for CMake module files
+[13.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_rqt_plugin' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_rqt_plugin
+[13.102s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin' for CMake config files
+[13.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_rqt_plugin', 'cmake_prefix_path')
+[13.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.ps1'
+[13.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.dsv'
+[13.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.sh'
+[13.148s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib'
+[13.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_rqt_plugin', 'ld_library_path_lib')
+[13.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.ps1'
+[13.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.dsv'
+[13.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.sh'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/bin'
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib/pkgconfig/erp_mini_rqt_plugin.pc'
+[13.177s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib/python3.10/site-packages'
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/bin'
+[13.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.ps1'
+[13.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.dsv'
+[13.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.sh'
+[13.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.bash'
+[13.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.zsh'
+[13.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/colcon-core/packages/erp_mini_rqt_plugin)
+[13.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_rqt_plugin)
+[13.234s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin' for CMake module files
+[13.245s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin' for CMake config files
+[13.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_rqt_plugin', 'cmake_prefix_path')
+[13.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.ps1'
+[13.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.dsv'
+[13.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/cmake_prefix_path.sh'
+[13.280s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib'
+[13.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_rqt_plugin', 'ld_library_path_lib')
+[13.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.ps1'
+[13.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.dsv'
+[13.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/hook/ld_library_path_lib.sh'
+[13.306s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/bin'
+[13.307s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib/pkgconfig/erp_mini_rqt_plugin.pc'
+[13.312s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib/python3.10/site-packages'
+[13.318s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/bin'
+[13.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.ps1'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.dsv'
+[13.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.sh'
+[13.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.bash'
+[13.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/erp_mini_rqt_plugin/package.zsh'
+[13.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/share/colcon-core/packages/erp_mini_rqt_plugin)
+[13.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_serial' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fmp/Jeju_Island/build/erp_mini_serial -- -j4 -l4
+[13.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/erp_mini_serial': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_serial
+[13.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_serial)
+[13.693s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial' for CMake module files
+[13.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_serial' returned '0': CMAKE_PREFIX_PATH=/home/fmp/Jeju_Island/install/erp_mini_util:/home/fmp/Jeju_Island/install/erp_mini_msgs:/home/fmp/Jeju_Island/install/erp_mini_cmake:/home/fmp/Jeju_Island/install/usb_cam:/home/fmp/Jeju_Island/install/sllidar_ros2:/home/fmp/Jeju_Island/install/rplidar_ros:/home/fmp/Jeju_Island/install/erp_mini_serial:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin:/home/fmp/Jeju_Island/install/erp_mini_driver:/home/fmp/Jeju_Island/install/vehicle_launch:/home/fmp/Jeju_Island/install/vehicle_control:/home/fmp/Jeju_Island/install/erp_control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/fmp/Jeju_Island/install/erp_mini_util/lib:/home/fmp/Jeju_Island/install/erp_mini_msgs/lib:/home/fmp/Jeju_Island/install/usb_cam/lib:/home/fmp/Jeju_Island/install/erp_mini_serial/lib:/home/fmp/Jeju_Island/install/erp_mini_rqt_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fmp/Jeju_Island/build/erp_mini_serial
+[13.715s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial' for CMake config files
+[13.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_serial', 'cmake_prefix_path')
+[13.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.ps1'
+[13.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.dsv'
+[13.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.sh'
+[13.746s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib'
+[13.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_serial', 'ld_library_path_lib')
+[13.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.ps1'
+[13.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.dsv'
+[13.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.sh'
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/bin'
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib/pkgconfig/erp_mini_serial.pc'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib/python3.10/site-packages'
+[13.775s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/bin'
+[13.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.ps1'
+[13.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.dsv'
+[13.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.sh'
+[13.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.bash'
+[13.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.zsh'
+[13.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_serial/share/colcon-core/packages/erp_mini_serial)
+[13.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_serial)
+[13.824s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial' for CMake module files
+[13.830s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial' for CMake config files
+[13.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_serial', 'cmake_prefix_path')
+[13.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.ps1'
+[13.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.dsv'
+[13.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/cmake_prefix_path.sh'
+[13.857s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib'
+[13.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_serial', 'ld_library_path_lib')
+[13.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.ps1'
+[13.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.dsv'
+[13.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/hook/ld_library_path_lib.sh'
+[13.881s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/bin'
+[13.882s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib/pkgconfig/erp_mini_serial.pc'
+[13.887s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/lib/python3.10/site-packages'
+[13.890s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_serial/bin'
+[13.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.ps1'
+[13.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.dsv'
+[13.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.sh'
+[13.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.bash'
+[13.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_serial/share/erp_mini_serial/package.zsh'
+[13.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_serial/share/colcon-core/packages/erp_mini_serial)
+[14.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fmp/Jeju_Island/build/vehicle_launch': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/vehicle_launch/build --no-deps symlink_data
+[15.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_driver', 'pythonpath_develop')
+[15.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.ps1'
+[15.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/erp_mini_driver' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/erp_mini_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/erp_mini_driver/build --no-deps symlink_data
+[15.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.dsv'
+[15.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/build/erp_mini_driver/share/erp_mini_driver/hook/pythonpath_develop.sh'
+[15.828s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver' for CMake module files
+[15.837s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver' for CMake config files
+[15.841s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver/lib'
+[15.846s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver/bin'
+[15.847s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver/lib/pkgconfig/erp_mini_driver.pc'
+[15.848s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages'
+[15.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('erp_mini_driver', 'pythonpath')
+[15.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/pythonpath.ps1'
+[15.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/pythonpath.dsv'
+[15.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/hook/pythonpath.sh'
+[15.867s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/erp_mini_driver/bin'
+[15.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erp_mini_driver)
+[15.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/package.ps1'
+[15.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/package.dsv'
+[15.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/package.sh'
+[15.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/package.bash'
+[15.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/erp_mini_driver/share/erp_mini_driver/package.zsh'
+[15.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/erp_mini_driver/share/colcon-core/packages/erp_mini_driver)
+[18.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_launch', 'pythonpath_develop')
+[18.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/build/vehicle_launch/share/vehicle_launch/hook/pythonpath_develop.ps1'
+[18.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fmp/Jeju_Island/build/vehicle_launch' returned '0': PYTHONPATH=/home/fmp/Jeju_Island/build/vehicle_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fmp/Jeju_Island/build/vehicle_launch/build --no-deps symlink_data
+[18.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/build/vehicle_launch/share/vehicle_launch/hook/pythonpath_develop.dsv'
+[18.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/build/vehicle_launch/share/vehicle_launch/hook/pythonpath_develop.sh'
+[18.124s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch' for CMake module files
+[18.128s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch' for CMake config files
+[18.132s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch/lib'
+[18.133s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch/bin'
+[18.134s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch/lib/pkgconfig/vehicle_launch.pc'
+[18.136s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch/lib/python3.10/site-packages'
+[18.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_launch', 'pythonpath')
+[18.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/pythonpath.ps1'
+[18.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/pythonpath.dsv'
+[18.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/hook/pythonpath.sh'
+[18.151s] Level 1:colcon.colcon_core.environment:checking '/home/fmp/Jeju_Island/install/vehicle_launch/bin'
+[18.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_launch)
+[18.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/package.ps1'
+[18.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/package.dsv'
+[18.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/package.sh'
+[18.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/package.bash'
+[18.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/fmp/Jeju_Island/install/vehicle_launch/share/vehicle_launch/package.zsh'
+[18.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fmp/Jeju_Island/install/vehicle_launch/share/colcon-core/packages/vehicle_launch)
+[18.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.187s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.187s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.246s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.247s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.313s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.ps1'
+[18.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fmp/Jeju_Island/install/_local_setup_util_ps1.py'
+[18.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.ps1'
+[18.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.sh'
+[18.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fmp/Jeju_Island/install/_local_setup_util_sh.py'
+[18.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.sh'
+[18.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.bash'
+[18.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.bash'
+[18.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fmp/Jeju_Island/install/local_setup.zsh'
+[18.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fmp/Jeju_Island/install/setup.zsh'

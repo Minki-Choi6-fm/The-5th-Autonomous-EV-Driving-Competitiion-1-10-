@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing erp_mini_driver.egg-info/PKG-INFO
+writing dependency_links to erp_mini_driver.egg-info/dependency_links.txt
+writing entry points to erp_mini_driver.egg-info/entry_points.txt
+writing requirements to erp_mini_driver.egg-info/requires.txt
+writing top-level names to erp_mini_driver.egg-info/top_level.txt
+reading manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+writing manifest file 'erp_mini_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fmp/Jeju_Island/install/erp_mini_driver/lib/python3.10/site-packages/erp-mini-driver.egg-link (link to .)
+Installing drive_controller script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+Installing driver_node script to /home/fmp/Jeju_Island/install/erp_mini_driver/lib/erp_mini_driver
+
+Installed /home/fmp/Jeju_Island/build/erp_mini_driver
+running symlink_data

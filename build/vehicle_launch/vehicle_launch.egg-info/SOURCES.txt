@@ -9,7 +9,11 @@ setup.py
 ../../build/vehicle_launch/vehicle_launch.egg-info/top_level.txt
 ../../build/vehicle_launch/vehicle_launch.egg-info/zip-safe
 resource/vehicle_launch
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 vehicle_launch/__init__.py
+vehicle_launch.egg-info/PKG-INFO
+vehicle_launch.egg-info/SOURCES.txt
+vehicle_launch.egg-info/dependency_links.txt
+vehicle_launch.egg-info/entry_points.txt
+vehicle_launch.egg-info/requires.txt
+vehicle_launch.egg-info/top_level.txt
+vehicle_launch.egg-info/zip-safe
