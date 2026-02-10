@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<library path = "erp_mini_rqt_plugin">
+
+    <!-- ERP Mini control panel -->
+    <class name = "erp_mini_rqt_plugin/ControlPanelPlugin" type = "erp_mini_rqt_plugin::ControlPanelPlugin" base_class_type = "rqt_gui_cpp::Plugin">
+        <description>ERP Mini Control Panel</description>
+        <qtgui>
+            <group>
+                <label>ERP Mini</label>
+                <icon type="theme">folder</icon>
+                <statustip>ERP Mini RQT Plugin</statustip>
+            </group>
+            
+            <label>Control Panel</label>
+            <icon type="theme">image-x-generic</icon>
+            <statustip>A GUI plugin for controlling the ERP Mini platform.</statustip>
+        </qtgui>
+    </class>
+
+    <!-- ERP Mini feedback monitor -->
+    <class name = "erp_mini_rqt_plugin/FeedbackMonitorPlugin" type = "erp_mini_rqt_plugin::FeedbackMonitorPlugin" base_class_type = "rqt_gui_cpp::Plugin">
+        <description>ERP Mini Feedback Monitor</description>
+        <qtgui>
+            <group>
+                <label>ERP Mini</label>
+                <icon type="theme">folder</icon>
+                <statustip>ERP Mini RQT Plugin</statustip>
+            </group>
+            
+            <label>Feedback Monitor</label>
+            <icon type="theme">image-x-generic</icon>
+            <statustip>A GUI plugin for monitoring feedback from the ERP Mini platform.</statustip>
+        </qtgui>
+    </class>
+
+</library>

@@ -1,0 +1,83 @@
+name: colcon-build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  colcon-build:
+    runs-on: ubuntu-22.04
+    container:
+      image: osrf/ros:humble-desktop
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compute cache key seeds
+        id: compute-hash
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Hash of all package.xml files (paths + contents)
+          rosenv_seed=$( (find . -type f -name 'package.xml' -print0 | sort -z | xargs -0 sha256sum 2>/dev/null || echo 'no-package-xml') | sha256sum | cut -d' ' -f1 )
+          echo "rosenv_seed=$rosenv_seed" >> "$GITHUB_OUTPUT"
+
+      - name: Install tools
+        run: |
+          apt-get update
+          apt-get install -y rsync
+
+      - name: Restore rosdep snapshot
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/rosenv
+          key: ${{ runner.os }}-rosenv-${{ steps.compute-hash.outputs.rosenv_seed }}
+          restore-keys: |
+            ${{ runner.os }}-rosenv-
+
+      - name: Apply rosdep snapshot to system
+        shell: bash
+        run: |
+          set -e
+          mkdir -p "$HOME/.cache/rosenv/etc/ros" "$HOME/.cache/rosenv/var/cache/rosdep"
+          mkdir -p /etc/ros/rosdep/sources.list.d /var/cache/rosdep
+          if [ -d "$HOME/.cache/rosenv/etc/ros" ]; then
+            rsync -a "$HOME/.cache/rosenv/etc/ros/" /etc/ros/
+          fi
+          if [ -d "$HOME/.cache/rosenv/var/cache/rosdep" ]; then
+            rsync -a "$HOME/.cache/rosenv/var/cache/rosdep/" /var/cache/rosdep/
+          fi
+
+      - name: rosdep install
+        shell: bash
+        run: |
+          set -euo pipefail
+          rosdep init || true
+          rosdep update
+          rosdep install --rosdistro humble --from-paths src --ignore-src -r -y
+
+      - name: Snapshot rosdep back to cache
+        shell: bash
+        run: |
+          set -e
+          mkdir -p "$HOME/.cache/rosenv/etc/ros" "$HOME/.cache/rosenv/var/cache/rosdep"
+          rsync -a /etc/ros/ "$HOME/.cache/rosenv/etc/ros/"
+          rsync -a /var/cache/rosdep/ "$HOME/.cache/rosenv/var/cache/rosdep/"
+
+      - name: Colcon build
+        shell: bash
+        env:
+          BUILD_TYPE: RelWithDebInfo
+        run: |
+          set -eo pipefail
+          source /opt/ros/humble/setup.bash
+          PARALLEL=${PARALLEL:-$(nproc)}
+          colcon build \
+            --symlink-install \
+            --merge-install \
+            --cmake-args \
+              -DCMAKE_BUILD_TYPE=${BUILD_TYPE} \
+            --parallel-workers ${PARALLEL}
